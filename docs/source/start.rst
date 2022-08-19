@@ -20,7 +20,7 @@ After that, click on the dark blue Create a new project button, which will gener
 
 .. _target to image:
 
-.. figure:: .\image\new_project.png
+.. figure:: C:\Users\kaho\Documents\GitHub\tutorial-template\docs\source\image\connect_github.png
    :alt: Logo 
    :align: center
    :width: 240px
@@ -32,14 +32,13 @@ The third step is initialize project.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
 
-(ここで何をするか聞く)←githubからscriptを引っ張ってくる際に必要
 Next, you will need to connect github to use our scripts.
 Enter your Github Name and click on the light blue "Connect to Github" button.
 
 
 .. _target to image:
 
-.. figure:: .\\image\\connect_github.png
+.. figure:: .\image\connect_github.png
    :alt: Logo 
    :align: center
    :width: 240px
@@ -50,7 +49,7 @@ We recommend Only selecting repositories, and then you need to select repositori
 
 .. _target to image:
 
-.. figure:: .\\image\\repository_access.png
+.. figure:: .\image\repository_access.png
    :alt: Logo 
    :align: center
    :width: 240px
