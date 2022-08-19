@@ -1,8 +1,7 @@
 GET STARTED
 =====
 
-.. _installation:
-(上記が何の役割かまだ分かっていないので把握次第書き換え)
+.. _starting:
 
 Accessing MLOpsLight site 
 ------------
@@ -31,9 +30,9 @@ The third step is initialize project.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
 
-(ここで何をするか聞く)
-Next, you will need 〇〇.
-The easiest way is to enter your Github Name and click on the light blue "Connect to Github" button.
+(ここで何をするか聞く)←githubからscriptを引っ張ってくる際に必要
+Next, you will need to connect github to use our scripts.
+Enter your Github Name and click on the light blue "Connect to Github" button.
 .. _target to image:
 
 .. figure:: .\\image\\connect_github.png
