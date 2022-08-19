@@ -16,6 +16,8 @@ The second step is creating a new project.
 Click on the "project" button inside the page header to navigate to the project page.
 Then, click on the dark blue "New Project" button on this page, and enter the name of the new project.
 After that, click on the dark blue Create a new project button, which will generate a new project on your personal account.
+
+
 .. _target to image:
 
 .. figure:: .\image\new_project.png
@@ -33,6 +35,8 @@ After that, click the "Home" button on the left-hand side of the screen.
 (ここで何をするか聞く)←githubからscriptを引っ張ってくる際に必要
 Next, you will need to connect github to use our scripts.
 Enter your Github Name and click on the light blue "Connect to Github" button.
+
+
 .. _target to image:
 
 .. figure:: .\\image\\connect_github.png
@@ -42,6 +46,8 @@ Enter your Github Name and click on the light blue "Connect to Github" button.
 
 This will bring you to the Github webpage. You can select Repository access All repositories or Only select repositories.
 We recommend Only selecting repositories, and then you need to select repositories.
+
+
 .. _target to image:
 
 .. figure:: .\\image\\repository_access.png
