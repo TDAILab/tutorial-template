@@ -31,7 +31,6 @@ Initialize Project
 The third step is initialize project.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
-
 Next, you will need to connect github to use our scripts.
 Enter your Github Name and click on the light blue "Connect to Github" button.
 
