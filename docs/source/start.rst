@@ -1,6 +1,8 @@
 GET STARTED
 =====
 
+numfig = True
+
 .. _starting:
 
 Accessing MLOpsLight site 
