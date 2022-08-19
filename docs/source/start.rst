@@ -20,7 +20,7 @@ After that, click on the dark blue Create a new project button, which will gener
 
 .. _target to image:
 
-.. figure:: C:\Users\kaho\Documents\GitHub\tutorial-template\docs\source\image\connect_github.png
+.. figure:: /img/connect_github.png
    :alt: Logo 
    :align: center
    :width: 240px
