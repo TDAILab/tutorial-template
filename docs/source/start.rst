@@ -25,8 +25,8 @@ After that, click on the dark blue Create a new project button, which will gener
 .. figure:: /image/connect_github.png
    :alt: Logo 
    :align: center
-   :width: 480px
-(altわかっていない)
+   :width: 600px
+
 
 Initialize Project
 ----------------
@@ -39,10 +39,12 @@ Enter your Github Name and click on the light blue "Connect to Github" button.
 
 .. _target to image:
 
-.. figure:: /image/connect_github.png
+.. figure:: /image/new_project.png
    :alt: Log
    :align: center
-   :width: 480px
+   :width: 600px
+
+
 
 This will bring you to the Github webpage. You can select Repository access All repositories or Only select repositories.
 We recommend Only selecting repositories, and then you need to select repositories.
@@ -53,5 +55,5 @@ We recommend Only selecting repositories, and then you need to select repositori
 .. figure:: /image/repository_access.png
    :alt: Lo
    :align: center
-   :width: 480px
+   :width: 600px
 
