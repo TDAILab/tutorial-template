@@ -25,6 +25,9 @@ After that, click on the dark blue Create a new project button, which will gener
    :align: center
    :width: 600px
 
+l
+
+
 
 Initialize Project
 ----------------

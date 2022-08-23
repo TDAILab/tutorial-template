@@ -7,11 +7,9 @@ Usage
 
 Initialize Project
 ------------
-the home page of the project page 
-
-→ fill up github credential 
-
-→ Click Initialize Project button
+Click the home page of the project page, and you enter github credential.
+After you fill out the form, you click the green "Initialize Project" button.
+A few minutes later, this message will be displayed on the page.
 
 .. _target to image:
 
@@ -23,15 +21,12 @@ the home page of the project page
 l
 
 
-
-
-
-
-
-
 Run
 ------------
-Click the Model page → fill up this page → dark blue run button →　enter Image Tag Name and click Deploy to Dev(Dev)
+Click the Model page, and fill out this page.
+After then, you click the dark blue "run" button.
+The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).
+
 
 .. _target to image:
 
