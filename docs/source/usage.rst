@@ -7,7 +7,11 @@ Usage
 
 Initialize Project
 ------------
-the home page of the project page → fill up github credential → Click Initialize Project button
+the home page of the project page 
+
+→ fill up github credential 
+
+→ Click Initialize Project button
 
 .. _target to image:
 
@@ -15,7 +19,13 @@ the home page of the project page → fill up github credential → Click Initia
    :alt: Logo 
    :align: center
    :width: 600px
-a
+
+
+
+
+
+
+
 
 
 Run
