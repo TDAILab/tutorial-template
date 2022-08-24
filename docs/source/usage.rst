@@ -61,8 +61,7 @@ You can check if the program is done on the history page. Click the "history" bu
    :alt: Logo 
    :align: center
    :width: 600px
-
-..
+　　link me!
 
 
 Result
