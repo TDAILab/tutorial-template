@@ -44,7 +44,12 @@ If you check the "end point" box, #書き終えていない
 
 
 
-You can check if it's done on the history page.  #書き終えていない
+You can check if it's done on the history page. Click the "history" button and check out the "Status" section.
+Status is Success
+Status is Pending
+Status is Failed
+
+  #モデルが実行中という書き方でよいか？
 
 .. _target to image:
 
