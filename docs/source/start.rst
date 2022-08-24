@@ -20,7 +20,7 @@ After that, click on the dark blue Create a new project button, which will gener
 
 .. _target to image:
 
-.. figure:: /image/connect_github.png
+.. figure:: /image/new_project.png
    :alt: Logo 
    :align: center
    :width: 600px
@@ -40,7 +40,7 @@ Enter your Github Name and click on the light blue "Connect to Github" button.
 
 .. _target to image:
 
-.. figure:: /image/new_project.png
+.. figure:: /image/connect_github.png
    :alt: Log
    :align: center
    :width: 600px
