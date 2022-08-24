@@ -31,7 +31,8 @@ Run
 Click the Model page, and fill out this page.
 After then, you click the dark blue "run" button.
 The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).
-If you check the "end point" box, #書き終えていない
+Be careful you cannot use sthe following characters in the Image Tag Name. #使えない文字を記載する。
+If you check the "end point" box, #デプロイまでやってくれる
 
 
 .. _target to image:
@@ -44,12 +45,14 @@ If you check the "end point" box, #書き終えていない
 
 
 
-You can check if it's done on the history page. Click the "history" button and check out the "Status" section.
-Status is Success
-Status is Pending
-Status is Failed
-
-  #モデルが実行中という書き方でよいか？
+You can check if the program is done on the history page. Click the "history" button and check out the "Status" section.
+.. toctree::
+   Status is Pending, the program is executed at present.
+   Status is Success, the program is done and you can see the result on AWS website. Refer to the following for the way.
+   Status is Failed,  the program is failed because of some reasons.
+   #主語がprogramでよいか
+   #原因確認方法や解決方法も書くか。
+..
 
 .. _target to image:
 
@@ -58,18 +61,19 @@ Status is Failed
    :align: center
    :width: 600px
 
+..
+
 
 Result
 ------------
 You can check the result on the AWS website. Go to https://aws.amazon.com/jp/.
-Search for "Amazon SageMaker", go to this page.
+Search for "Amazon SageMaker", and go to this page.
 Click the "Inference" button on the left-hand side of the Amazon SageMaker page, and click the "Endpoints" button.
-(After clicking submit on the Enter Bug page, you will go to the Posting Bug page.)
+You will see results on this page.
 
 
 ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
    メモ
-   ・ヒストリーの話
    ・使えない文字の話（命名規則）
    ・エンドポイントの話追記
    ・データの入れ方
