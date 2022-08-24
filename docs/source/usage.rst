@@ -16,7 +16,7 @@ A few minutes later, this message will be displayed on the page.
    :alt: Logo 
    :align: center
    :width: 600px
-
+　　link me!
 
 Data upload
 ------------
@@ -41,7 +41,7 @@ If you check the "end point" box, #デプロイまでやってくれる
    :alt: Logo 
    :align: center
    :width: 600px
-
+　　link me!
 
 
 
@@ -74,7 +74,7 @@ You will see results on this page.
    :alt: Logo 
    :align: center
    :width: 600px
-..
+　　link me!
 
 ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
    メモ
