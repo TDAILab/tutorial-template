@@ -24,8 +24,7 @@ After that, click on the dark blue Create a new project button, which will gener
    :alt: Logo 
    :align: center
    :width: 600px
-
-l
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 
@@ -44,7 +43,7 @@ Enter your Github Name and click on the light blue "Connect to Github" button.
    :alt: Log
    :align: center
    :width: 600px
-
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 This will bring you to the Github webpage. You can select Repository access All repositories or Only select repositories.
@@ -57,4 +56,4 @@ We recommend Only selecting repositories, and then you need to select repositori
    :alt: Lo
    :align: center
    :width: 600px
-
+　　　　　　　　　　　　　　　　　　Click to enlarge!
