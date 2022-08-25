@@ -48,7 +48,9 @@ If you check the "end point" box, #デプロイまでやってくれる
 You can check if the program is done on the history page. Click the "history" button and check out the "Status" section.
 
 ・ Status is Pending : the program is executed at present.
+
 ・ Status is Success : the program is done and you can see the result on AWS website. Refer to the following for the way.
+
 ・ Status is Failed : the program is failed because of some reasons.
 #主語がprogramでよいか
 #原因確認方法や解決方法も書くか。 
