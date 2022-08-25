@@ -16,7 +16,7 @@ A few minutes later, this message will be displayed on the page.
    :alt: Logo 
    :align: center
    :width: 600px
-　　link me!
+　                                       Click to enlarge!
 
 Data upload
 ------------
@@ -41,19 +41,19 @@ If you check the "end point" box, #デプロイまでやってくれる
    :alt: Logo 
    :align: center
    :width: 600px
-　　link me!
+　                                       Click to enlarge!
 
 
 
 You can check if the program is done on the history page. Click the "history" button and check out the "Status" section.
 
 #ここなんか違う
-- :doc:`Status is Pending, the program is executed at present.`
-- :doc:`Status is Success, the program is done and you can see the result on AWS website. Refer to the following for the way.`
-- :doc:`Status is Failed,  the program is failed because of some reasons.`
-   #主語がprogramでよいか
-   #原因確認方法や解決方法も書くか。
-..
+・ Status is Pending : the program is executed at present.
+・ Status is Success : the program is done and you can see the result on AWS website. Refer to the following for the way.
+・ Status is Failed : the program is failed because of some reasons.
+#主語がprogramでよいか
+#原因確認方法や解決方法も書くか。 
+
 
 .. _target to image:
 
@@ -61,7 +61,7 @@ You can check if the program is done on the history page. Click the "history" bu
    :alt: Logo 
    :align: center
    :width: 600px
-　　link me!
+　                                       Click to enlarge!
 
 
 Result
@@ -74,7 +74,7 @@ You will see results on this page.
    :alt: Logo 
    :align: center
    :width: 600px
-　　link me!
+　                                       Click to enlarge!
 
 ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
    メモ
