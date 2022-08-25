@@ -1,8 +1,7 @@
-Welcome to Lumache's documentation!
+Welcome to MLOps's documentation!
 ===================================
 
-**MLOps** is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.(変えてない)
+**MLOps** is ease the transition from machine learning model development to operation and reduce operation costs
 
 
 Ship models faster and do more science!
