@@ -16,7 +16,7 @@ A few minutes later, this message will be displayed on the page.
    :alt: Logo 
    :align: center
    :width: 600px
-　　　　　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
+　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 Data upload
 ------------
@@ -41,7 +41,7 @@ If you check the "end point" box, #デプロイまでやってくれる
    :alt: Logo 
    :align: center
    :width: 600px
-　　　　　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
+　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 
@@ -60,7 +60,7 @@ You can check if the program is done on the history page. Click the "history" bu
    :alt: Logo 
    :align: center
    :width: 600px
-　　　　　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
+　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 Result
@@ -76,7 +76,7 @@ You will see results on this page.
    :alt: Logo 
    :align: center
    :width: 600px
-　　　　　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
+　　　　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
    メモ
