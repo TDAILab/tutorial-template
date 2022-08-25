@@ -70,6 +70,9 @@ You can check the result on the AWS website. Go to https://aws.amazon.com/jp/.
 Search for "Amazon SageMaker", and go to this page.
 Click the "Inference" button on the left-hand side of the Amazon SageMaker page, and click the "Endpoints" button.
 You will see results on this page.
+
+.. _target to image:
+
 .. figure:: /image/Endpoint_result.png
    :alt: Logo 
    :align: center
