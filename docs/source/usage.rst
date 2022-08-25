@@ -10,6 +10,13 @@ After that, search for "Amazon SageMaker" and go to this page.
 Next page, you find buckets by searching for your project name and go to your buckets page.
 Click the orange "Upload" button, and you select a file or a folder you want to use a database.
 
+.. _target to image:
+
+.. figure:: /image/data_Upload.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 Initialize Project
 ------------
