@@ -38,8 +38,8 @@ Click the Model page, and fill out this page.
 After then, you click the dark blue "run" button.
 The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).
 Be careful you cannot use sthe following characters in the Image Tag Name. #使えない文字を記載する。
-If you check the "end point" box, #デプロイまでやってくれる
-
+If you check the "end point" box, the program does from building an enviroment to model deployment.
+If not, the program does nothing but to build an enviroment.
 
 .. _target to image:
 
@@ -53,13 +53,15 @@ If you check the "end point" box, #デプロイまでやってくれる
 
 You can check if the program is done on the history page. Click the "history" button and check out the "Status" section.
 
-・ Status is Pending : the program is executed at present.
 
-・ Status is Success : the program is done and you can see the result on AWS website. Refer to the following for the way.
+#ここの配置は何とかする必要がある
 
-・ Status is Failed : the program is failed because of some reasons.
-#主語がprogramでよいか
-#原因確認方法や解決方法も書くか。 
+・ Status is Pending : The program is executed at present.
+
+・ Status is Success : The program is done and you can see the result on AWS website. Refer to the following for the way.
+
+・ Status is Failed : The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. 
+ 
 
 
 .. _target to image:
