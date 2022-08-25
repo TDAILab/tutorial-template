@@ -3,6 +3,13 @@ Usage
 
 .. _usage:
 
+Data upload
+------------
+First, you go to the AWS website https://aws.amazon.com/jp/.
+After that, search for "Amazon SageMaker" and go to this page.
+Next page, you find buckets by searching for your project name and go to your buckets page.
+Click the orange "Upload" button, and you select a file or a folder you want to use a database.
+
 
 Initialize Project
 ------------
@@ -17,14 +24,6 @@ A few minutes later, this message will be displayed on the page.
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
-
-Data upload
-------------
-First, you go to the AWS website https://aws.amazon.com/jp/.
-After that, search for "Amazon SageMaker" and go to this page.
-Next page, you find buckets by searching for your project name and go to your buckets page.
-Click the orange "Upload" button, and you select a file or a folder you want to use a database.
-
 
 Run
 ------------
