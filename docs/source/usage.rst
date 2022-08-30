@@ -56,9 +56,9 @@ You can check if the program is done on the history page. Click the "history" bu
 
 
 
-* Status is Pending : The program is executed at present.\n
-* Status is Success : The program is done and you can see the result on AWS website. Refer to the following for the way.\n
-* Status is Failed : The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. \n
+* Status is Pending : The program is executed at present.
+* Status is Success : The program is done and you can see the result on AWS website. Refer to the following for the way.
+* Status is Failed : The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. 
  
 
 
@@ -85,6 +85,13 @@ You will see results on this page.
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+.. code-block:: python
+   {'ResponseMetadata': 
+   {'RequestId': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 'HTTPStatusCode': 200, 'HTTPHeaders': 
+   {'x-amzn-requestid': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 'x-amzn-invoked-production-variant': 'AllTraffic', 'date': 'Mon, 29 Aug 2022 23:44:07 GMT', 'content-type': 'text/csv; charset=utf-8', 'content-length': '17'}
+   , 'RetryAttempts': 0}
+   , 'ContentType': 'text/csv; charset=utf-8', 'InvokedProductionVariant': 'AllTraffic', 'Body': <botocore.response.StreamingBody object at 0x000002294E573DF0>}
 
 ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
    メモ
