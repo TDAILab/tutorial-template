@@ -86,6 +86,8 @@ You will see results on this page.
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
 
+.. _target to code:
+
 .. code-block:: python
    {'ResponseMetadata': 
    {'RequestId': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 
