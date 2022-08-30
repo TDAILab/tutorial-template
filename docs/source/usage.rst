@@ -54,11 +54,11 @@ If not, the program does nothing but to build an enviroment.
 You can check if the program is done on the history page. Click the "history" button and check out the "Status" section.
 
 
-#ここの配置は何とかする必要がある
 
-   ・ Status is Pending : The program is executed at present.\n
-   ・ Status is Success : The program is done and you can see the result on AWS website. Refer to the following for the way.\n
-   ・ Status is Failed : The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. \n
+
+* Status is Pending : The program is executed at present.\n
+* Status is Success : The program is done and you can see the result on AWS website. Refer to the following for the way.\n
+* Status is Failed : The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. \n
  
 
 
