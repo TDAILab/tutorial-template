@@ -88,10 +88,11 @@ You will see results on this page.
 
 .. code-block:: python
    {'ResponseMetadata': 
-   {'RequestId': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 'HTTPStatusCode': 200, 'HTTPHeaders': 
-   {'x-amzn-requestid': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 'x-amzn-invoked-production-variant': 'AllTraffic', 'date': 'Mon, 29 Aug 2022 23:44:07 GMT', 'content-type': 'text/csv; charset=utf-8', 'content-length': '17'}
-   , 'RetryAttempts': 0}
-   , 'ContentType': 'text/csv; charset=utf-8', 'InvokedProductionVariant': 'AllTraffic', 'Body': <botocore.response.StreamingBody object at 0x000002294E573DF0>}
+   {'RequestId': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 
+   'HTTPStatusCode': 200, 
+   'HTTPHeaders': {'x-amzn-requestid': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 'x-amzn-invoked-production-variant': 'AllTraffic', 'date': 'Mon, 29 Aug 2022 23:44:07 GMT', 'content-type': 'text/csv; charset=utf-8', 'content-length': '17'}, 
+   'RetryAttempts': 0}, 
+   'ContentType': 'text/csv; charset=utf-8', 'InvokedProductionVariant': 'AllTraffic', 'Body': <botocore.response.StreamingBody object at 0x000002294E573DF0>}
 
 ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
    メモ
