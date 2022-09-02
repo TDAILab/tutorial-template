@@ -29,7 +29,7 @@ Contents
 .. toctree::
 
    start
-   usage
+   tutorial
    api
    usage_ex
    
