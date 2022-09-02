@@ -16,7 +16,7 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
    :alt: Logo 
    :align: center
    :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
+　　　　　　　　　　　　　　　　Click to enlarge!
 
 Initialize Project
 ------------
@@ -30,7 +30,7 @@ A few minutes later, this message will be displayed on the page.
    :alt: Logo 
    :align: center
    :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
+　　　　　　　　　　　　　　　　Click to enlarge!
 
 Run
 ------------
@@ -47,7 +47,7 @@ If not, the program does nothing but to build an enviroment.
    :alt: Logo 
    :align: center
    :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
+　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 
