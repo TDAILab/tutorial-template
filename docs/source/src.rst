@@ -53,11 +53,11 @@ Go the Model page, and fill out this page.
 　　　　　　　　　　　　　　　　Click to enlarge!
 
 
-After then, you click the dark blue "run" button.
-The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).
+After then, you click the dark blue "run" button.\n
+The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).\n
 Be careful you cannot use the following characters in the Image Tag Name. \n
 If you check the "end point" box, the program does from building an enviroment to model deployment.
-If not, the program does nothing but to build an enviroment.
+If not, the program does nothing but to build an enviroment.\n
 
 .. _target to image:
 
