@@ -18,6 +18,12 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
    :width: 600px
 　　　　　　　　　　　　　　　　Click to enlarge!
 
+Script upload
+------------
+You need three scripts, inference.py, requirements.txt and train.py.
+
+
+
 Initialize Project
 ------------
 Click the home page of the project page, and you enter github credential.
@@ -35,7 +41,10 @@ If you click the "Delete Resources in AWS" button, you can't run your project.
 
 Run
 ------------
+
 Go the Model page, and fill out this page.
+
+
 * S3 Source : The path to the upload folder.
 * Container Destination : The path 
 * Container Source Path : The path 
