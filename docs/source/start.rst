@@ -26,16 +26,21 @@ After that, click on the dark blue Create a new project button, which will gener
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
 
-
-
 Initialize Project
+------------
+The third step is initialize a project.
+Click the home page of the project page, and you enter github credential.
+After you fill out the form, you click the green "Initialize Project" button.
+A few minutes later, the blue "Pending" button and the red "Delete Resources in AWS" button will be displayed on the page.
+If you click the "Delete Resources in AWS" button, you can't run your project.
+
+Connecting Github
 ----------------
-The third step is initialize project.
+Next step is connecting Github.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
 Next, you will need to connect github to use our scripts.
 Enter your Github Name and click on the light blue "Connect to Github" button.
-
 
 .. _target to image:
 
@@ -57,3 +62,5 @@ We recommend Only selecting repositories, and then you need to select repositori
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+
