@@ -49,9 +49,11 @@ Go the Model page, and fill out this page.
 * Container Destination : The path 
 * Container Source Path : The path 
 * S3 Destination : The path 
-* Processing Command:The path to the 
-* Training Command:The path to the training script.
+* Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
+* Training Command:The path to the training script used the sklearn.metrics, sklearn.svm sklearn.model_selection modules.
 * Prediction Command:The path 
+
+
 
 .. _target to image:
 

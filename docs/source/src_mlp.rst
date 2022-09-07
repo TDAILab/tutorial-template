@@ -36,11 +36,12 @@ If you click the "Delete Resources in AWS" button, you can't run your project.
 Run
 ------------
 Go the Model page, and fill out this page.
+
 * S3 Source : The path to the upload folder.
 * Container Destination : The path 
 * Container Source Path : The path 
 * S3 Destination : The path 
-* Processing Command:The path to the 
+* Processing Command:The path to the preprocessing scripts.
 * Training Command:The path to the training script.
 * Prediction Command:The path 
 
