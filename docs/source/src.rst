@@ -20,8 +20,13 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
 
 Script upload
 ------------
+書き換えする
+###################################################################
 You need three scripts, inference.py, requirements.txt and train.py.
-
+You use a predict modulein inference.py
+You enter a module version. 
+You use the used the accuracy_score, SVC, train_test_split methods in train.py.
+###################################################################################
 
 
 Initialize Project
@@ -44,15 +49,17 @@ Run
 
 Go the Model page, and fill out this page.
 
-
 * S3 Source : The path to the upload folder.
 * Container Destination : The path 
 * Container Source Path : The path 
 * S3 Destination : The path 
 * Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
-* Training Command:The path to the training script used the sklearn.metrics, sklearn.svm sklearn.model_selection modules.
+* Training Command:The path to the training script. 
 * Prediction Command:The path 
 
+from sklearn.metrics import accuracy_score
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
 
 
 .. _target to image:
@@ -125,11 +132,3 @@ You will see results on this page.
    'RetryAttempts': 0}, 
    'ContentType': 'text/csv; charset=utf-8', 'InvokedProductionVariant': 'AllTraffic', 'Body': <botocore.response.StreamingBody object at 0x000002294E573DF0>}
 
-ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-   メモ
-   ・使えない文字の話（命名規則）
-   ・エンドポイントの話追記
-   ・データの入れ方
-     →S3→バッケトから自分のデータを探す→ローカルからフォルダまたはファイルを選択してアップロード
-   ・結果の見方
-     →Amazon SageMaker→Inference→Endpoints

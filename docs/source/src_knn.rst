@@ -18,6 +18,16 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
    :width: 600px
 　　　　　　　　　　　　　　　　Click to enlarge!
 
+Script upload
+------------
+書き換えする
+###################################################################
+You need three scripts, inference.py, requirements.txt and train.py.
+You use a predict modulein inference.py
+You enter a module version. 
+You use used the accuracy_score, KNeighborsClassifier, train_test_split methods in train.py.
+###################################################################################
+
 Initialize Project
 ------------
 Click the home page of the project page, and you enter github credential.
@@ -35,13 +45,16 @@ If you click the "Delete Resources in AWS" button, you can't run your project.
 
 Run
 ------------
+
 Go the Model page, and fill out this page.
+
+
 * S3 Source : The path to the upload folder.
 * Container Destination : The path 
 * Container Source Path : The path 
 * S3 Destination : The path 
-* Processing Command:The path to the 
-* Training Command:The path to the training script.
+* Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
+* Training Command:The path to the training script. 
 * Prediction Command:The path 
 
 .. _target to image:
@@ -53,11 +66,11 @@ Go the Model page, and fill out this page.
 　　　　　　　　　　　　　　　　Click to enlarge!
 
 
-After then, you click the dark blue "run" button.
-The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).
-Be careful you cannot use sthe following characters in the Image Tag Name. #使えない文字を記載する。
+After then, you click the dark blue "run" button.\n
+The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).\n
+Be careful you cannot use the following characters in the Image Tag Name. \n
 If you check the "end point" box, the program does from building an enviroment to model deployment.
-If not, the program does nothing but to build an enviroment.
+If not, the program does nothing but to build an enviroment.\n
 
 .. _target to image:
 
@@ -113,3 +126,4 @@ You will see results on this page.
    'HTTPHeaders': {'x-amzn-requestid': 'ef97246d-0c93-498c-b074-e6b4eb77a1a2', 'x-amzn-invoked-production-variant': 'AllTraffic', 'date': 'Mon, 29 Aug 2022 23:44:07 GMT', 'content-type': 'text/csv; charset=utf-8', 'content-length': '17'}, 
    'RetryAttempts': 0}, 
    'ContentType': 'text/csv; charset=utf-8', 'InvokedProductionVariant': 'AllTraffic', 'Body': <botocore.response.StreamingBody object at 0x000002294E573DF0>}
+
