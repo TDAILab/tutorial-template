@@ -60,10 +60,6 @@ Go the Model page, and fill out this page.
 * Training Command:The path to the training script. 
 * Prediction Command:The path 
 
-from sklearn.metrics import accuracy_score
-from sklearn.svm import SVC
-from sklearn.model_selection import train_test_split
-
 
 .. _target to image:
 

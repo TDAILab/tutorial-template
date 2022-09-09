@@ -18,14 +18,22 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
    :width: 600px
 　　　　　　　　　　　　　　　　Click to enlarge!
 
-Script upload
+Creating a new repository
 ------------
 書き換えする
 ###################################################################
+Next step is Creating a new repository.
+You Open the website https://github.com/ , log in to the account and create a new repository.
+You have to save some file you need in
 You need three scripts, inference.py, requirements.txt and train.py.
 You use a predict modulein inference.py
 You enter a module version. 
 You use used the accuracy_score, KNeighborsClassifier, train_test_split methods in train.py.
+
+.. note::
+   The project names must be between 3 (min) and 63 (max) characters long.
+   The project  names can consist only of lowercase letters, numbers, dots (.), and hyphens (-).
+
 ###################################################################################
 
 Initialize Project
@@ -47,12 +55,17 @@ Run
 ------------
 
 Go the Model page, and fill out this page.
+########################################
+Containerの役割書く
+########################################
 
-
+* Github Name: Your github name.
+* Github repository : The repository name with some scripts. 
+* Github path:The path to the upload some scripts.
 * S3 Source : The path to the upload folder.
-* Container Destination : The path 
-* Container Source Path : The path 
-* S3 Destination : The path 
+* Container Destination : Type in "data/input/"
+* Container Source Path : Type in "data/output/"
+* S3 Destination : The path to the folder stored the result of execute the model.
 * Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
 * Training Command:The path to the training script. 
 * Prediction Command:The path 
@@ -83,8 +96,6 @@ If not, the program does nothing but to build an enviroment.\n
 
 
 You can check if the program is done on the history page. Click the "history" button and check out the "Status" section.
-
-
 
 
 * Status is Pending : The program is executed at present.
