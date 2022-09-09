@@ -30,6 +30,6 @@ Contents
 
    start
    tutorial
-   api
+   memo
    usage_ex
    

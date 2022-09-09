@@ -23,7 +23,7 @@ Script upload
 書き換えする
 ###################################################################
 You need three scripts, inference.py, requirements.txt and train.py.
-You use a predict modulein inference.py
+You use a predict module in inference.py
 You enter a module version. 
 You use the used the accuracy_score, SVC, train_test_split methods in train.py.
 ###################################################################################
@@ -49,6 +49,9 @@ Run
 
 Go the Model page, and fill out this page.
 
+* Github Name: Your github name
+* Github repository : The repository name with some scripts. 
+* Github path:The path to the upload some scripts.
 * S3 Source : The path to the upload folder.
 * Container Destination : The path 
 * Container Source Path : The path 
