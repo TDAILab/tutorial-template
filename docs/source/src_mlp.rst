@@ -32,6 +32,14 @@ You enter a package and specific version to retrieve in requirements.txt.
    A requirements.txt's name can only be used "requirements.txt" 
    If you can use this name, selected packages are installed automatically.
 
+.. _target to image:
+
+.. figure:: /image/src_mlp.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　Click to enlarge!
+
 Initialize Project
 ------------
 Click the home page of the project page, and you enter github credential.
