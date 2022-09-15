@@ -29,7 +29,7 @@ You use used the accuracy_score, KNeighborsClassifier, train_test_split methods 
 You enter a package and specific version to retrieve in requirements.txt. 
 
 .. note::
-   A requirements.txt's name can only be used "The requirements.txt" 
+   A requirements.txt's name can only be used "requirements.txt" 
    If you can use this name, selected packages are installed automatically.
 
 

@@ -18,16 +18,19 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
    :width: 600px
 　　　　　　　　　　　　　　　　Click to enlarge!
 
-Script upload
+Creating a new repository
 ------------
-書き換えする
-###################################################################
-You need three scripts, inference.py, requirements.txt and train.py.
-You use a predict module in inference.py
-You enter a module version. 
-You use the used the accuracy_score, SVC, train_test_split methods in train.py.
-###################################################################################
 
+Next step is Creating a new repository.
+You Open the website https://github.com/, log in to the account and create a new repository.
+You prepare three scripts, inference.py, requirements.txt and train.py in one directory.
+You create a predict function in inference.py. This function has two arguments. The first argument is a model you use.  The second argument is "input_json" that was stored some data. 
+You use the used the accuracy_score, SVC, train_test_split methods in train.py.
+You enter a package and specific version to retrieve in requirements.txt. 
+
+.. note::
+   A requirements.txt's name can only be used "requirements.txt" 
+   If you can use this name, selected packages are installed automatically.
 
 Initialize Project
 ------------
@@ -60,6 +63,7 @@ Go the Model page, and fill out this page.
 * Training Command:The path to the training script. 
 * Prediction Command:The path 
 
+※A system run in a container using the data in S3.
 
 .. _target to image:
 
