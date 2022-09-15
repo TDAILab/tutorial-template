@@ -6,7 +6,7 @@ Src_knn
 Data upload
 ------------
 First, you go to the AWS website https://aws.amazon.com/jp/.
-After that, search for "Amazon SageMaker" and go to this page.
+After that, search for "S3" and go to this page.
 Next page, you find buckets by searching for your project name and go to your buckets page.
 Click the orange "Upload" button, and you select a file or a folder you want to use a database.
 
@@ -20,21 +20,18 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
 
 Creating a new repository
 ------------
-書き換えする
-###################################################################
+
 Next step is Creating a new repository.
-You Open the website https://github.com/ , log in to the account and create a new repository.
-You have to save some file you need in
-You need three scripts, inference.py, requirements.txt and train.py.
-You use a predict modulein inference.py
-You enter a module version. 
+You Open the website https://github.com/, log in to the account and create a new repository.
+You prepare three scripts, inference.py, requirements.txt and train.py in one directory.
+You create a predict function in inference.py. This function has two arguments. The first argument is a model you use.  The second argument is "input_json" that was stored some data. 
 You use used the accuracy_score, KNeighborsClassifier, train_test_split methods in train.py.
+You enter a package and specific version to retrieve in requirements.txt. 
 
 .. note::
-   The project names must be between 3 (min) and 63 (max) characters long.
-   The project  names can consist only of lowercase letters, numbers, dots (.), and hyphens (-).
+   A requirements.txt's name can only be used "The requirements.txt" 
+   If you can use this name, selected packages are installed automatically.
 
-###################################################################################
 
 Initialize Project
 ------------
@@ -55,9 +52,6 @@ Run
 ------------
 
 Go the Model page, and fill out this page.
-########################################
-Containerの役割書く
-########################################
 
 * Github Name: Your github name.
 * Github repository : The repository name with some scripts. 
@@ -69,6 +63,8 @@ Containerの役割書く
 * Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
 * Training Command:The path to the training script. 
 * Prediction Command:The path 
+
+※A system run in a container using the data in S3.
 
 .. _target to image:
 
