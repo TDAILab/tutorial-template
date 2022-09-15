@@ -1,5 +1,5 @@
-memo
-===
+Memo
+=====
 
 .. autosummary::
    :toctree: generated
