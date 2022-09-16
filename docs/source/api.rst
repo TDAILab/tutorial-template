@@ -4,6 +4,8 @@ api
 Init
 ------------
 Parameters
+^^^^^^^^
+
 * app_name (string) --[REQUIRED]
 * region (string) --[REQUIRED]
 
@@ -12,11 +14,15 @@ Parameters
 Describe
 ------------
 Parameters
+^^^^^^^^
+
 * execution (string) --[REQUIRED]
 
 create_codepipeline
 ------------
 Parameters
+^^^^^^^^
+
 * codepipeline_name (string) --[REQUIRED]
 * code_repository_name (string) --[REQUIRED]
 * mlworkflow_name (string) --[REQUIRED]
