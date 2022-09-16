@@ -37,7 +37,7 @@ You enter a package and specific version to retrieve in requirements.txt.
 .. figure:: /image/src_knn.png
    :alt: Logo 
    :align: center
-   :width: 600px
+   :width: 300px
 　　　　　　　　　　　　　　　　Click to enlarge!
 
 Initialize Project
@@ -47,13 +47,6 @@ After you fill out the form, you click the green "Initialize Project" button.
 A few minutes later, the blue "Pending" button and the red "Delete Resources in AWS" button will be displayed on the page.
 If you click the "Delete Resources in AWS" button, you can't run your project.
 
-.. _target to image:
-
-.. figure:: /image/build_setting.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　Click to enlarge!
 
 Run
 ------------
