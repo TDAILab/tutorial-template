@@ -24,6 +24,7 @@ Contents
 
    start
    tutorial
-   memo
+   api
+   workflow
    usage_ex
    
