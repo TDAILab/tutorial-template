@@ -93,8 +93,8 @@ Parameters
                      - container_arguments (list) --[REQUIRED]
                         - (string)
          if type == "Deploy to Dev"
-         - parameters (dict) --[REQUIRED]
-         - codebuild_project_name_deploy (string) --[REQUIRED]
+            - parameters (dict) --[REQUIRED]
+            - codebuild_project_name_deploy (string) --[REQUIRED]
          if type == "Deploy to Prod"
-         - parameters (dict) --[REQUIRED]
-         - codebuild_project_name_deploy (string) --[REQUIRED]
+            - parameters (dict) --[REQUIRED]
+            - codebuild_project_name_deploy (string) --[REQUIRED]
