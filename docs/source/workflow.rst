@@ -26,3 +26,8 @@ Drift Detected
 
 Codepipeline Setting
 ------------
+Update Docker Image
+Manual Approve
+Deploy to Dev
+Deploy to Prob
+stepfunctions
