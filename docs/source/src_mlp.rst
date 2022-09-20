@@ -55,7 +55,7 @@ Go the Model page, and fill out this page.
 
 
 * S3 Source : The path to the upload folder.
-* Container Destination : The path 
+* Container Destination : The path i
 * Container Source Path : The path 
 * S3 Destination : The path 
 * Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
