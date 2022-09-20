@@ -62,36 +62,35 @@ Parameters
                   - type (string) --[REQUIRED]"Batch Prediction" | "Lambda" | "Processing Job" | "Training Job";
 
                   if type == "Lambda"
-                  - parameters (dict) --[REQUIRED]
-                     - FunctionName (string)--[REQUIRED]
-                     - Payload (dict)--
-                     - body (dict)--
+                     - parameters (dict) --[REQUIRED]
+                        - FunctionName (string)--[REQUIRED]
+                        - Payload (dict)--
+                        - body (dict)--
 
                   if type == "Training Job"
-                  - parameters (dict) --
-                     - sagemaker_execution_role (string) --[REQUIRED]
-                     - output_path (string) --[REQUIRED]
-                     - train_data_path (string) --[REQUIRED]
-                     - validation_data_path (string) --[REQUIRED]
-                     - image_uri (string) --[REQUIRED]
-                     - ECR_repository (string) --[REQUIRED]
-                     - tag (string) --[REQUIRED]
-                     - hyperparameters (dict)
+                     - parameters (dict) --
+                        - sagemaker_execution_role (string) --[REQUIRED]
+                        - output_path (string) --[REQUIRED]
+                        - train_data_path (string) --[REQUIRED]
+                        - validation_data_path (string) --[REQUIRED]
+                        - image_uri (string) --[REQUIRED]
+                        - ECR_repository (string) --[REQUIRED]
+                        - tag (string) --[REQUIRED]
+                        - hyperparameters (dict)
                   if type == "Processing Job"
-
-                  - parameters (dict) --[REQUIRED]
-                     - inputs (list) --[REQUIRED]
-                        - source (string)
-                        - destination (string)
-                        - input_name (string)
-                     - outputs (list) --[REQUIRED]
-                        - source (string)
-                        - destination (string)
-                        - output_name (string)
-                     - container_entrypoint (list) --[REQUIRED]
-                        - (string)
-                     - container_arguments (list) --[REQUIRED]
-                        - (string)
+                     - parameters (dict) --[REQUIRED]
+                        - inputs (list) --[REQUIRED]
+                           - source (string)
+                           - destination (string)
+                           - input_name (string)
+                        - outputs (list) --[REQUIRED]
+                           - source (string)
+                           - destination (string)
+                           - output_name (string)
+                        - container_entrypoint (list) --[REQUIRED]
+                           - (string)
+                        - container_arguments (list) --[REQUIRED]
+                           - (string)
          if type == "Deploy to Dev"
             - parameters (dict) --[REQUIRED]
             - codebuild_project_name_deploy (string) --[REQUIRED]
