@@ -8,7 +8,7 @@ Workflow
 
 Model Selector
 ------------
-過去のモデルから選択
+ You choose the model 
 
 Dev or Prob
 ------------

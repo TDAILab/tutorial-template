@@ -66,7 +66,7 @@ Go the Model page, and fill out this page.
 
 .. _target to image:
 
-.. figure:: /image/build_setting.png
+.. figure:: /image/model_run.png
    :alt: Logo 
    :align: center
    :width: 600px
