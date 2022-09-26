@@ -76,8 +76,8 @@ Go the Model page, and fill out this page.
 　　　　　　　　　　　　　　　　Click to enlarge!
 
 
-After then, you click the dark blue "run" button.\n
-The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).\n
+After then, you click the dark blue "run" button.
+The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).
 The program does from building an enviroment to model deployment.
 
 .. note::
