@@ -22,6 +22,7 @@ Dev or Prob
 Trigger Setting
 ------------
 Trigger setting is the parameters that define the circumstances in which the workflow performs its actions.
+
 - cron : This function is capable of carring out the model on every time you set.
 - Webhook : This function is notifying when an event occurs.
 - S3 Event : 
@@ -32,6 +33,7 @@ Trigger setting is the parameters that define the circumstances in which the wor
 Codepipeline Setting
 ------------
 CodePipeline is a service that implements CI/CD by automating build, deploy, and test.
+
 - Update Docker Image : to update the Docker image 
 - Manual Approve : How to implement a pipeline that requires two or more approvals in CodePipeline
 - Deploy to Dev : to deploy the model to development environment.
