@@ -39,8 +39,16 @@ CodePipeline is one of the services that automatically builds or deploys and tes
 - Deploy to Dev : to deploy the model to development environment.
 - Deploy to Prob : to deploy the model to production environment.
 - stepfunctions : to visualize and manipulate the flow of processing by defining each process of 　　　　　　　 the application as a step.
-   edit with GUI
-      - Lambda : 
-      - Training job : 
-      - Batch prediction : 
-      - Processing job : 
+
+
+Step function
+^^^^^^^^
+
+edit with GUI
+- Lambda
+
+- Training job
+
+- Batch prediction
+
+- Processing job 
