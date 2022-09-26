@@ -58,8 +58,7 @@ Go the Model page, and fill out this page.
 * S3 Source : The path to the upload folder.
 * Container Destination : The path i
 * Container Source Path : The path 
-* S3 Destination : The path 
-* Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
+* S3 Destination : The path to the folder stored the result of execute the model.
 * Training Command:The path to the training script. 
 * Prediction Command:The path 
 
@@ -74,8 +73,8 @@ Go the Model page, and fill out this page.
 　　　　　　　　　　　　　　　　Click to enlarge!
 
 
-After then, you click the dark blue "run" button.\n
-The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).\n
+After then, you click the dark blue "run" button.
+The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).
 The program does from building an enviroment to model deployment.
 
 .. note::
@@ -100,9 +99,12 @@ You can check if the program is done on the history page. Click the "history" bu
 
 
 
-* Status is Pending : The program is executed at present.
-* Status is Success : The program is done and you can see the result on AWS website. Refer to the following for the way.
-* Status is Failed : The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. 
+* Status is Pending
+   The program is executed at present.
+* Status is Success
+   The program is done and you can see the result on AWS website. Refer to the following for the way.
+* Status is Failed
+   The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. 
  
 
 

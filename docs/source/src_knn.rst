@@ -61,7 +61,6 @@ Go the Model page, and fill out this page.
 * Container Destination : Type in "data/input/"
 * Container Source Path : Type in "data/output/"
 * S3 Destination : The path to the folder stored the result of execute the model.
-* Processing Command:The path to the preprocessing scripts used the argparse, tarfile, warnings and numpy modules.
 * Training Command:The path to the training script. 
 * Prediction Command:The path 
 
