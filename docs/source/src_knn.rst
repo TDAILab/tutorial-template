@@ -40,6 +40,7 @@ You enter a package and specific version to retrieve in requirements.txt.
    :width: 300px
 　　　　　　　　　　　　　　　　Click to enlarge!
 
+
 Initialize Project
 ------------
 Click the home page of the project page, and you enter github credential.
@@ -113,13 +114,14 @@ You can check if the program is done on the history page. Click the "history" bu
    :width: 600px
 　　　　　　　　　　　　　　　　　Click to enlarge!
 
-
-Result
+Endpoint
 ------------
-You can check the result on the AWS website. Go to https://aws.amazon.com/jp/.
+Endpoints is the URL required to connect to AWS services
+You can check the Endpoint on the AWS website. Go to https://aws.amazon.com/jp/.
 Search for "Amazon SageMaker", and go to this page.
 Click the "Inference" button on the left-hand side of the Amazon SageMaker page, and click the "Endpoints" button.
-You will see results on this page.
+You will see the Endpoint on this page.
+
 
 .. _target to image:
 
