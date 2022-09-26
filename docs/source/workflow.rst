@@ -35,10 +35,10 @@ Codepipeline Setting
 CodePipeline is one of the services that automatically builds or deploys and tests source code.
 
 - Update Docker Image : to update the Docker image 
-- Manual Approve : How to implement a pipeline that requires two or more approvals in CodePipeline
+- Manual Approve : How to implement a pipeline that requires two or more approvals in 　　　　　　　 CodePipeline
 - Deploy to Dev : to deploy the model to development environment.
 - Deploy to Prob : to deploy the model to production environment.
-- stepfunctions : to visualize and manipulate the flow of processing by defining each process of 　　　　　 　 the application as a step.
+- stepfunctions : to visualize and manipulate the flow of processing by defining each process of 　　　　　　　 the application as a step.
    edit with GUI
       - Lambda
       - Training job
