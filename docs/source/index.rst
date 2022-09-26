@@ -1,7 +1,7 @@
 Welcome to MLOps's documentation!
 ===================================
 
-**MLOps** is ease the transition from machine learning model development to operation and reduce operation costs
+**MLOps** is ease the transition from machine learning model development to operation and reduce operation costs.
 
 
 Ship models faster and do more science!
