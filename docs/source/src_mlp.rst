@@ -78,6 +78,7 @@ The form will pops up on the page, and you enter Image Tag Name and click Deploy
 The program does from building an enviroment to model deployment.
 
 .. note::
+   The same rule applies to the Image Tag Name and the Project Name. 
    Image Tag Name must be between 3 (min) and 63 (max) characters long.
    Image Tag Name can consist only of lowercase letters, numbers, dots (.), and hyphens (-).
    
