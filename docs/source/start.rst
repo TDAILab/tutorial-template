@@ -17,8 +17,8 @@ Click on the "project" button inside the page header to navigate to the project 
 Then, click on the dark blue "New Project" button on this page, and enter the name of the new project.
 
 .. note::
-   The project names must be between 3 (min) and 63 (max) characters long.
-   The project  names can consist only of lowercase letters, numbers, dots (.), and hyphens (-).
+   The project name must be between 3 (min) and 63 (max) characters long.
+   The project name can consist only of lowercase letters, numbers, dots (.), and hyphens (-).
 
 After that, click on the dark blue Create a new project button, which will generate a new project on your personal account.
 
