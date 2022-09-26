@@ -17,7 +17,6 @@ Dev or Prob
 - ARCHIVE : A archive environment. You stored the model without anyone seeing it.
 
 Trigger Setting
-
 ------------
 cron : This function is capable of carring out the model on every time you set.
 Webhook : This function is notifying when an event occurs.
