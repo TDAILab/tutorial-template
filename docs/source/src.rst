@@ -39,6 +39,8 @@ You enter a package and specific version to retrieve in requirements.txt.
    :align: center
    :width: 300px
 　　　　　　　　　　　　　　　　Click to enlarge!
+
+
 Initialize Project
 ------------
 Click the home page of the project page, and you enter github credential.
