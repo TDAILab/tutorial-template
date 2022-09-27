@@ -54,15 +54,15 @@ Run
 
 Go the Model page, and fill out this page.
 
-* Github Name: Your github name.
+* Github Name : Your github name.
 * Github repository : The repository name with some scripts. 
-* Github path:The path to the upload some scripts.
+* Github path : The path to the upload some scripts.
 * S3 Source : The path to the upload folder.
-* Container Destination : Type in "data/input/"
-* Container Source Path : Type in "data/output/"
+* Container Destination : Type in "data/input"
+* Container Source Path : Type in "data/output"
 * S3 Destination : The path to the folder stored the result of execute the model.
-* Training Command:The path to the training script. 
-* Prediction Command:The path 
+* Training Command : The path to the training script. 
+
 
 ※A system run in a container using the data in S3.
 
