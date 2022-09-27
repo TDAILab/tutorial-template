@@ -55,6 +55,7 @@ Step function
 ^^^^^^^^
 
 edit with GUI
+
 - Lambda
 
 - Training job
