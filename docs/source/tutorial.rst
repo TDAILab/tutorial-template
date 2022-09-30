@@ -4,6 +4,6 @@ This section includes tutorials for learning the basics of how to work with MLOp
 
 .. toctree::
 
-   src
+   Support-Vector Machine
    Classification by K-nearest neighbor algorithm
    Image Classification by Pytorch

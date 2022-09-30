@@ -1,4 +1,4 @@
-Src
+Support-Vector Machine
 =====
 
 .. _usage:
