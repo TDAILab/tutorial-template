@@ -2,9 +2,9 @@ Classification by K-nearest neighbor algorithm
 =====
 
 .. _usage:
-
-This model use the "Iris date set" to train the model by K-nearest neighbor algorithm.
-This model can predict to what kind of Iris is by some features.
+You use the the k-nearest neighbors (KNN) algorithm in this tutorial for estimating the likelihood that a data point.
+The "Iris date set" is used to train this model. 
+This model can predict to the type of Iris by several characteristics.
 
 
 Data upload
