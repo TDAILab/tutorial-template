@@ -2,9 +2,9 @@ Image Classification by Pytorch
 =====
 
 .. _usage:
-
-This model use the "" to train the model by K-nearest neighbor algorithm.
-This model can predict to what kind of Iris is by some features.
+You use the the Pytorch in this tutorial for image classification
+The "MNIST" is used to train this model. 
+This model can predict to the number by several characteristics.
 
 
 Data upload
