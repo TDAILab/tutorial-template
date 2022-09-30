@@ -5,5 +5,5 @@ This section includes tutorials for learning the basics of how to work with MLOp
 .. toctree::
 
    src
-   src_knn
-   src_mlp
+   Classification by K-nearest neighbor algorithm
+   Image Classification by Pytorch

@@ -1,7 +1,11 @@
-Src_knn
+Classification by K-nearest neighbor algorithm
 =====
 
 .. _usage:
+
+This model use the "Iris date set" to train the model by K-nearest neighbor algorithm.
+This model can predict to what kind of Iris is by some features.
+
 
 Data upload
 ------------

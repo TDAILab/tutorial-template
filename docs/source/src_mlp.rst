@@ -1,7 +1,11 @@
-Src_mlp
+Image Classification by Pytorch
 =====
 
 .. _usage:
+
+This model use the "" to train the model by K-nearest neighbor algorithm.
+This model can predict to what kind of Iris is by some features.
+
 
 Data upload
 ------------

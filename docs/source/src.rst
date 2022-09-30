@@ -3,6 +3,10 @@ Src
 
 .. _usage:
 
+This model use the "Iris date set" to train the model by 〇〇.
+This model can predict to what kind of Iris is by some features.
+
+
 Data upload
 ------------
 First, you go to the AWS website https://aws.amazon.com/jp/.
