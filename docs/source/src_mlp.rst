@@ -6,7 +6,6 @@ You use the the Pytorch in this tutorial for image classification
 The "MNIST" is used to train this model. 
 This model can predict to the number by several characteristics.
 
-
 Data upload
 ------------
 First, you go to the AWS website https://aws.amazon.com/jp/.
