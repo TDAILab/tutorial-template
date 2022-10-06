@@ -1,4 +1,4 @@
-K-nearest-neighbor
+k-nearest-neighbor
 ===================
 
 .. _usage:

@@ -1,4 +1,4 @@
-Support-Vector-Machine
+support-vector-machine
 ======================
 
 .. _usage:

@@ -1,4 +1,4 @@
-Pytorch
+pytorch
 ========
 
 .. _usage:
