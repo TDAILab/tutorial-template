@@ -1,5 +1,5 @@
-Classification by Support-Vector Machine
-=========================================
+Support-Vector-Machine
+======================
 
 .. _usage:
 

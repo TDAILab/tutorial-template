@@ -1,5 +1,5 @@
-Classification by K-nearest neighbor algorithm
-===================================
+K-nearest-neighbor
+===================
 
 .. _usage:
 You use the the k-nearest neighbors (KNN) algorithm in this tutorial for estimating the likelihood that a data point.
