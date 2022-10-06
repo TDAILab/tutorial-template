@@ -32,6 +32,52 @@ Write programs
 ------------
 train.py
 ^^^^^^^^^^
+You create the python file to be able to use the your model.
+
+Firstly, you import modules you'll use in "train.py".
+.. code-block:: python
+   import os
+   import sys
+   import pickle
+   import pandas as pd
+   from sklearn.metrics import accuracy_score
+   from sklearn.svm import SVC
+   from sklearn.model_selection import train_test_split
+
+Next, you define a function. This function is roughly divided into four steps.
+
+
+.. code-block:: python
+   def main():
+    print(os.listdir("data/input"))
+    df = pd.read_csv(
+        "data/input/train.csv",
+        header=None,
+        names=["label", "feat1", "feat2", "feat3", "feat4"])
+
+    X = df[["feat1", "feat2", "feat3", "feat4"]].values
+    y = df[["label"]].values.ravel()
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y)
+    print("X_train:", X_train.shape)
+    print("X_test:", X_test.shape)
+    print("y_train:", y_train.shape)
+    print("y_test:", y_test.shape)
+
+.. code-block:: python
+ clf = SVC()
+    print("fitting...")
+    clf.fit(X_train, y_train)
+
+.. code-block:: python
+    y_predictions = clf.predict(X_test)
+    accuracy = accuracy_score(y_test, y_predictions)
+
+.. code-block:: python
+    os.makedirs("data/output", exist_ok=True)
+    model_path = "data/output/model.pkl"
+    pickle.dump(clf, open(model_path, 'wb'))
+
 
 requirements.txt
 ^^^^^^^^^^^
@@ -43,11 +89,9 @@ You enter version of the third party libraries used in the "train.py".
 
 .. code-block:: python
 
-   scikit-learn
-   pandas
-   joblib
-   sagemaker-experiments==0.1.35
-   sagemaker==2.73.0
+   pandas==1.4.3
+   scikit-learn==1.1.2
+   cloudpickle==2.1.0
 
 
 inference.py

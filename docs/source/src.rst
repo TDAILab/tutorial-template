@@ -29,8 +29,10 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
 
 Write programs
 ------------
+
 train.py
 ^^^^^^^^^^
+
 
 requirements.txt
 ^^^^^^^^^^^
@@ -42,11 +44,9 @@ You enter version of the third party libraries used in the "train.py".
 
 .. code-block:: python
 
-   scikit-learn
-   pandas
-   joblib
-   sagemaker-experiments==0.1.35
-   sagemaker==2.73.0
+   pandas==1.4.3
+   scikit-learn==1.1.2
+   cloudpickle==2.1.0
 
 
 inference.py
