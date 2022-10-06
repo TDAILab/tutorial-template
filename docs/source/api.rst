@@ -97,3 +97,12 @@ Parameters
          if type == "Deploy to Prod"
             - parameters (dict) --[REQUIRED]
             - codebuild_project_name_deploy (string) --[REQUIRED]
+
+
+describe_codepipeline
+------------
+Parameters
+^^^^^^^^
+
+- pipelineExecutionId
+- codepipeline_name
