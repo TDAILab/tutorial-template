@@ -1,5 +1,5 @@
 Image Classification by Pytorch
-=====
+=================================
 
 .. _usage:
 You use the the Pytorch in this tutorial for image classification
