@@ -1,5 +1,10 @@
 k-nearest-neighbor
 ===================
+.. autosummary::
+   :toctree: generated
+
+   lumache
+
 
 .. _usage:
 You use the the k-nearest neighbors (KNN) algorithm in this tutorial for estimating the likelihood that a data point.

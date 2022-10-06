@@ -1,6 +1,11 @@
 support-vector-machine
 ======================
 
+.. autosummary::
+   :toctree: generated
+
+   lumache
+
 .. _usage:
 
 You use the the Support-Vector Machine(SVC) in this tutorial for classification problems.

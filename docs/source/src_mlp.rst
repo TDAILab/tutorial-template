@@ -1,5 +1,10 @@
 pytorch
 ========
+.. autosummary::
+   :toctree: generated
+
+   lumache
+
 
 .. _usage:
 You use the the Pytorch in this tutorial for image classification
