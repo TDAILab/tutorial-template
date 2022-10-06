@@ -21,6 +21,32 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
    :width: 600px
 　　　　　　　　　　　　　　　　Click to enlarge!
 
+
+Write programs
+------------
+train.py
+^^^^^^^^^^
+
+requirements.txt
+^^^^^^^^^^^
+
+You enter version of the third party libraries used in the "train.py".
+.. note::
+   A requirements.txt's name can only be used "requirements.txt".
+   If you can use this name, selected packages are installed automatically.
+
+.. code-block:: python
+
+   scikit-learn
+   pandas
+   joblib
+   sagemaker-experiments==0.1.35
+   sagemaker==2.73.0
+
+
+inference.py
+^^^^^^^^^^^^
+
 Creating a new repository
 ------------
 
@@ -30,18 +56,6 @@ You prepare three scripts, inference.py, requirements.txt and train.py in one di
 You create a predict function in inference.py. This function has two arguments. The first argument is a model you use.  The second argument is "input_json" that was stored some data. 
 You use the torch, torch.nn, torch.optim, torchvision, torchvision.transforms modules.in train.py.
 You enter a package and specific version to retrieve in requirements.txt. 
-
-.. note::
-   A requirements.txt's name can only be used "requirements.txt" 
-   If you can use this name, selected packages are installed automatically.
-
-.. _target to image:
-
-.. figure:: /image/src_mlp.png
-   :alt: Logo 
-   :align: center
-   :width: 300px
-　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 Initialize Project
