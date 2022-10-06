@@ -27,4 +27,7 @@ Contents
    tutorial
    workflow
    usage_ex
+   Support-Vector-Machine
+   K-nearest-neighbor
+   Pytorch
    
