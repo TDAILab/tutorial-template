@@ -11,11 +11,11 @@ Model Selector
 You choose the model that you developed.
 
 
-Dev or Prob
+Dev or Prod
 ------------
 
 - Dev : A development environment. Safe place to work on models. 
-- Prob :  A production environment. Customers can use your model.
+- Prod :  A production environment. Customers can use your model.
 - ARCHIVE : A archive environment. You stored the model without anyone seeing it.
 
 
@@ -45,7 +45,7 @@ CodePipeline is one of the services that automatically builds or deploys and tes
    How to implement a pipeline that requires two or more approvals in CodePipeline. You need to enter the target e-mail address.
 - Deploy to Dev
    to deploy the model to development environment.
-- Deploy to Prob
+- Deploy to Prod
    to deploy the model to production environment.
 - stepfunctions
    to visualize and manipulate the flow of processing by defining each process of the application as a step.
