@@ -5,6 +5,6 @@ This section includes tutorials for learning the basics of how to work with MLOp
 
 .. toctree::
 
-   Support-Vector-Machine
-   K-nearest-neighbor
-   Pytorch
+   support-vector-machine
+   k-nearest-neighbor
+   pytorch

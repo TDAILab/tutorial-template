@@ -46,6 +46,7 @@ Firstly, you import modules you'll use in "train.py".
 
 Next, you define a function. This function is roughly divided into four steps.
 
+First step is creating training data and test data. You need to load and devide data.
 
 .. code-block:: python
    def main():
@@ -64,14 +65,18 @@ Next, you define a function. This function is roughly divided into four steps.
     print("y_train:", y_train.shape)
     print("y_test:", y_test.shape)
 
+Second step is training a model. You will initialize and train the model.
 .. code-block:: python
- clf = SVC()
+   clf = SVC()
     print("fitting...")
     clf.fit(X_train, y_train)
 
+Third step is prediction from the model. You test the classifer to to see if it learned well.  
 .. code-block:: python
     y_predictions = clf.predict(X_test)
     accuracy = accuracy_score(y_test, y_predictions)
+
+Finally, the python file is stored.
 
 .. code-block:: python
     os.makedirs("data/output", exist_ok=True)
@@ -83,6 +88,8 @@ requirements.txt
 ^^^^^^^^^^^
 
 You enter version of the third party libraries used in the "train.py".
+The third party libraries are  available in Python other than the standard library
+
 .. note::
    A requirements.txt's name can only be used "requirements.txt".
    If you can use this name, selected packages are installed automatically.
@@ -96,6 +103,8 @@ You enter version of the third party libraries used in the "train.py".
 
 inference.py
 ^^^^^^^^^^^^
+
+
 
 Creating a new repository
 ------------
