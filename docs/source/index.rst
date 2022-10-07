@@ -16,8 +16,7 @@ Our distributed training implementation outperforms the industry standard, requi
 Check out the :doc:`usage` section for further information, including
 how to :ref:`start` the project.
 
-
-Contents
+xContents
 --------
 
 .. toctree::
@@ -25,9 +24,7 @@ Contents
    start
    api
    tutorial
+   tutorial1
    workflow
    usage_ex
-   Support-Vector-Machine
-   K-nearest-neighbor
-   Pytorch
-   
+
