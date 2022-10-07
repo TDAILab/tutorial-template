@@ -103,13 +103,15 @@ The third party libraries are  available in Python other than the standard libra
 inference.py
 ^^^^^^^^^^^^
 This python file works for inference used the "train.py".
-You create a predict function in this python file. This function has two arguments. The first argument is a model saved as "train.py".  The second argument is "input_json" whose type is data frames. 
-
+You create a predict function in this python file. This function has two arguments. The first argument is a model saved as "train.py".  The second argument is "input_json" whose type is data frames.
+If you use Pytorch,  
+-> float：model.predictはnd.arrayで返されるので、pytorchなどでtensorで返される場合はnd.arrayに変換する必要がある
 
 .. code-block:: python
-   import pandas as pd
    def predict(model, input: pd.core.frame.DataFrame) -> np.ndarray[float]:
-      prediction = model.predict(input)
+      input_numpy = np.array(input).astype(np.float32)    # set float type to float32
+      input_tensor = torch.from_numpy(input_numpy)
+      prediction = np.array([torch.argmax(model(input_tensor))])    # specify output as np.array
       print(f"prediction : {prediction}")
       return prediction
 
