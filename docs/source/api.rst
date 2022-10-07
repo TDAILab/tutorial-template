@@ -19,7 +19,7 @@ Describe
 
 - execution (string) --[REQUIRED]
 
-create_codepipeline
+Create_codepipeline
 ------------
 
 **Parameters**
@@ -100,7 +100,7 @@ create_codepipeline
             - codebuild_project_name_deploy (string) --[REQUIRED]
 
 
-describe_codepipeline
+Describe_codepipeline
 ------------
 
 **Parameters**
