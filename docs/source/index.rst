@@ -22,8 +22,7 @@ Contents
 .. toctree::
 
    start
-   api
    tutorial
+   api
    workflow
-   usage_ex
 
