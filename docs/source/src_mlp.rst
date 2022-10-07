@@ -1,9 +1,5 @@
-pytorch
+Pytorch
 ========
-.. autosummary::
-   :toctree: generated
-
-   lumache
 
 
 .. _usage:

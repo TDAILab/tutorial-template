@@ -1,12 +1,6 @@
-support-vector-machine
+Support-vector-machine
 ======================
 
-.. autosummary::
-   :toctree: generated
-
-   lumache
-
-.. _usage:
 
 You use the the Support-Vector Machine(SVC) in this tutorial for classification problems.
 The "Iris date set" is used to train this model. 

@@ -1,12 +1,6 @@
-k-nearest-neighbor
+K-nearest-neighbor
 ===================
-.. autosummary::
-   :toctree: generated
 
-   lumache
-
-
-.. _usage:
 You use the the k-nearest neighbors (KNN) algorithm in this tutorial for estimating the likelihood that a data point.
 The "Iris date set" is used to train this model. 
 This model can predict to the type of Iris by several characteristics.
