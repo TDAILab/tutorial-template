@@ -121,8 +121,11 @@ The third party libraries are  available in Python other than the standard libra
 This python file works for inference used the "train.py".
 You create a predict function in this python file. This function has two arguments. The first argument is a model saved as "train.py".  The second argument is "input_json" whose type is data frames. 
 
-If you use Pytorch,  
--> float：model.predictはnd.arrayで返されるので、pytorchなどでtensorで返される場合はnd.arrayに変換する必要がある
+.. note::
+   The return value of the predict function is "nd.array".
+   If the return value is a tensor using pytorch as in this tutorial, the return type must be converted to "nd.array".
+
+   
 
 .. code-block:: python
    def predict(model, input: pd.core.frame.DataFrame) -> np.ndarray[float]:
@@ -136,7 +139,7 @@ If you use Pytorch,
 Creating a new repository
 ------------
 
-Next step is Creating a new repository.
+Next step is creating a new repository.
 You Open the website https://github.com/, log in to the account and create a new repository.
 You create one directory and copy "inference.py", "requirements.txt" and "train.py".
 
