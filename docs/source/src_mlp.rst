@@ -31,14 +31,67 @@ Write programs
 ------------
 train.py
 ^^^^^^^^^^
+You create the python file to be able to use the your model.
+
+Firstly, you import modules you'll use in "train.py".
+.. code-block:: python
+   import os
+   import sys
+   import pickle
+   import pandas as pd
+   from sklearn.metrics import accuracy_score
+   from sklearn.svm import SVC
+   from sklearn.model_selection import train_test_split
+
+Next, you define a function. This function is roughly divided into four steps.
+
+First step is creating training data and test data. You need to load and devide data.
+
+.. code-block:: python
+   def main():
+    print(os.listdir("data/input"))
+    df = pd.read_csv(
+        "data/input/train.csv",
+        header=None,
+        names=["label", "feat1", "feat2", "feat3", "feat4"])
+
+    X = df[["feat1", "feat2", "feat3", "feat4"]].values
+    y = df[["label"]].values.ravel()
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y)
+    print("X_train:", X_train.shape)
+    print("X_test:", X_test.shape)
+    print("y_train:", y_train.shape)
+    print("y_test:", y_test.shape)
+
+Second step is training a model. You will initialize and train the model.
+.. code-block:: python
+   clf = SVC()
+    print("fitting...")
+    clf.fit(X_train, y_train)
+
+Third step is prediction from the model. You test the classifer to to see if it learned well.  
+
+.. code-block:: python
+    y_predictions = clf.predict(X_test)
+    accuracy = accuracy_score(y_test, y_predictions)
+
+Finally, this python file is stored.
+.. code-block:: python
+    os.makedirs("data/output", exist_ok=True)
+    model_path = "data/output/model.pkl"
+    pickle.dump(clf, open(model_path, 'wb'))
+
 
 requirements.txt
 ^^^^^^^^^^^
 
-You enter version of the third party libraries used in the "train.py".
+You enter version of the third party libraries used in this text file.
+The third party libraries are  available in Python other than the standard library
+
 .. note::
    A requirements.txt's name can only be used "requirements.txt".
-   If you can use this name, selected packages are installed automatically.
+   If you use this name, selected packages are installed automatically.
 
 .. code-block:: python
 
@@ -49,16 +102,25 @@ You enter version of the third party libraries used in the "train.py".
 
 inference.py
 ^^^^^^^^^^^^
+This python file works for inference used the "train.py".
+You create a predict function in this python file. This function has two arguments. The first argument is a model saved as "train.py".  The second argument is "input_json" whose type is data frames. 
+
+
+.. code-block:: python
+   import pandas as pd
+   def predict(model, input: pd.core.frame.DataFrame) -> np.ndarray[float]:
+      prediction = model.predict(input)
+      print(f"prediction : {prediction}")
+      return prediction
+
 
 Creating a new repository
 ------------
 
 Next step is Creating a new repository.
 You Open the website https://github.com/, log in to the account and create a new repository.
-You prepare three scripts, inference.py, requirements.txt and train.py in one directory.
-You create a predict function in inference.py. This function has two arguments. The first argument is a model you use.  The second argument is "input_json" that was stored some data. 
-You use the torch, torch.nn, torch.optim, torchvision, torchvision.transforms modules.in train.py.
-You enter a package and specific version to retrieve in requirements.txt. 
+You create one directory and copy "inference.py", "requirements.txt" and "train.py".
+
 
 
 Initialize Project
