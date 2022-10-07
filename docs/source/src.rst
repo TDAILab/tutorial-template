@@ -23,15 +23,16 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
 
 Write programs
 ------------
-train.py
-^^^^^^^^^^
+
+**train.py**
+
 You create the python file to be able to use the your model.
 
 Firstly, you import modules you'll use in "train.py".
 
 
 .. code-block:: python
-   
+
    import os
    import sys
    import pickle
@@ -95,8 +96,8 @@ Finally, this python file is stored.
     pickle.dump(clf, open(model_path, 'wb'))
 
 
-requirements.txt
-^^^^^^^^^^^
+**requirements.txt**
+
 
 You enter version of the third party libraries used in this text file.
 The third party libraries are  available in Python other than the standard library
@@ -113,8 +114,8 @@ The third party libraries are  available in Python other than the standard libra
    cloudpickle==2.1.0
 
 
-inference.py
-^^^^^^^^^^^^
+**inference.py**
+
 This python file works for inference used the "train.py".
 You create a predict function in this python file. This function has two arguments. The first argument is a model saved as "train.py".  The second argument is "input_json" whose type is data frames. 
 
