@@ -16,7 +16,7 @@ Our distributed training implementation outperforms the industry standard, requi
 Check out the :doc:`usage` section for further information, including
 how to :ref:`start` the project.
 
-xContents
+Contents
 --------
 
 .. toctree::
