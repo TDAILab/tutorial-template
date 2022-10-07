@@ -5,7 +5,7 @@ GET STARTED
 
 Set up
 ----------
-You go to the "Settings" page of your account and click "developer settings" in the lower left corner.
+You go to the "Settings" page of your account and click "developer settings" in the lower left corner to go to the "GitHub Apps" page.
 
 
 Accessing MLOpsLight site 
