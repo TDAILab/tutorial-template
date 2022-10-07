@@ -3,8 +3,9 @@ API
 
 Init
 ------------
-Parameters
-^^^^^^^^
+
+
+**Parameters**
 
 * app_name (string) --[REQUIRED]
 * region (string) --[REQUIRED]
@@ -13,15 +14,15 @@ Parameters
 
 Describe
 ------------
-Parameters
-^^^^^^^^
+
+**Parameters**
 
 - execution (string) --[REQUIRED]
 
 create_codepipeline
 ------------
-Parameters
-^^^^^^^^
+
+**Parameters**
 
 - codepipeline_name (string) --[REQUIRED]
 - code_repository_name (string) --[REQUIRED]
@@ -101,8 +102,9 @@ Parameters
 
 describe_codepipeline
 ------------
-Parameters
-^^^^^^^^
+
+**Parameters**
+
 
 - pipelineExecutionId
 - codepipeline_name
