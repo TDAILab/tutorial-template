@@ -25,12 +25,16 @@ Click the orange "Upload" button, and you select a file or a folder you want to 
 
 Write programs
 ------------
-train.py
-^^^^^^^^^^
+
+**train.py**
+
 You create the python file to be able to use the your model.
 
 Firstly, you import modules you'll use in "train.py".
+
+
 .. code-block:: python
+
    import os
    import sys
    import pickle
@@ -39,11 +43,14 @@ Firstly, you import modules you'll use in "train.py".
    from sklearn.svm import SVC
    from sklearn.model_selection import train_test_split
 
+
 Next, you define a function. This function is roughly divided into four steps.
 
 First step is creating training data and test data. You need to load and devide data.
 
+
 .. code-block:: python
+
    def main():
     print(os.listdir("data/input"))
     df = pd.read_csv(
@@ -60,27 +67,39 @@ First step is creating training data and test data. You need to load and devide 
     print("y_train:", y_train.shape)
     print("y_test:", y_test.shape)
 
+
 Second step is training a model. You will initialize and train the model.
+
+
 .. code-block:: python
+
    clf = SVC()
     print("fitting...")
     clf.fit(X_train, y_train)
 
+
+
 Third step is prediction from the model. You test the classifer to to see if it learned well.  
 
+
 .. code-block:: python
+
     y_predictions = clf.predict(X_test)
     accuracy = accuracy_score(y_test, y_predictions)
 
+
 Finally, this python file is stored.
+
+
 .. code-block:: python
+
     os.makedirs("data/output", exist_ok=True)
     model_path = "data/output/model.pkl"
     pickle.dump(clf, open(model_path, 'wb'))
 
 
-requirements.txt
-^^^^^^^^^^^
+**requirements.txt**
+
 
 You enter version of the third party libraries used in this text file.
 The third party libraries are  available in Python other than the standard library
@@ -89,6 +108,7 @@ The third party libraries are  available in Python other than the standard libra
    A requirements.txt's name can only be used "requirements.txt".
    If you use this name, selected packages are installed automatically.
 
+
 .. code-block:: python
 
    pandas==1.4.3
@@ -96,10 +116,11 @@ The third party libraries are  available in Python other than the standard libra
    cloudpickle==2.1.0
 
 
-inference.py
-^^^^^^^^^^^^
+**inference.py**
+
 This python file works for inference used the "train.py".
-You create a predict function in this python file. This function has two arguments. The first argument is a model saved as "train.py".  The second argument is "input_json" whose type is data frames.
+You create a predict function in this python file. This function has two arguments. The first argument is a model saved as "train.py".  The second argument is "input_json" whose type is data frames. 
+
 If you use Pytorch,  
 -> float：model.predictはnd.arrayで返されるので、pytorchなどでtensorで返される場合はnd.arrayに変換する必要がある
 
