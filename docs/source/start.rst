@@ -3,9 +3,14 @@ GET STARTED
 
 .. _starting:
 
+Set up
+----------
+You go to the "Settings" page of your account and click "developer settings" in the lower left corner.
+
+
 Accessing MLOpsLight site 
 ------------
-To start, go to https://mlops-tdai.bubbleapps.io/version-test/projects?debug_mode=true. 
+You go to https://mlops-tdai.bubbleapps.io/version-test/projects?debug_mode=true. 
 Click on the dark blue SIGN UP OR LOGIN button, and sign up using your e-mail address and password.
 
 
