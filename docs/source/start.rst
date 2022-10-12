@@ -50,7 +50,7 @@ After that, click on the dark blue Create a new project button, which will gener
 
 .. _target to image:
 
-.. figure:: /image/new_project.png
+.. figure:: /image/AWS_credential.png
    :alt: Logo 
    :align: center
    :width: 600px
