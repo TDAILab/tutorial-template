@@ -5,8 +5,25 @@ GET STARTED
 
 Set up
 ----------
-You go to the "Settings" page of your account and click "developer settings" in the lower left corner to go to the "GitHub Apps" page.
 
+**Create New GitHub App**
+You go to the "Settings" page of your account in GitHub website and click "developer settings" in the lower left corner to go to the "GitHub Apps" page.
+In this page,  you grant access to the repository for your newly created account In the repository permissions field.
+After you create "New GitHub App", you get a private key.
+
+**mlp_sdk**
+You go to https://github.com/TDAILab/mlops-sdk and clone the "mlp_sdk" repository.
+Next, you rewrite parameters in "secret_manager.sh".
+.. figure:: /image/manager.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+After that, you register this with AWS Secret.
+
+**Sam sync**
+??
 
 Accessing MLOpsLight site 
 ------------
