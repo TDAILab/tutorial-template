@@ -64,13 +64,13 @@ After you fill out the form, you click the green "Initialize Project" button.
 A few minutes later, the blue "Pending" button and the red "Delete Resources in AWS" button will be displayed on the page.
 If you click the "Delete Resources in AWS" button, you can't run your project.
 
-Connecting Github
+Connecting AWS and Github
 ----------------
-Next step is connecting Github.
+Next step is connecting AWS and Github.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
-Next, you will need to connect github to use our scripts.
-Enter your Github Name and click on the light blue "Connect to Github" button.
+Next, you fill out this page and click on the dark blue "Initialize Project" button.
+If the connection is successful, you will see the following screen
 
 .. _target to image:
 
