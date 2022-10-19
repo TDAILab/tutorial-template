@@ -35,6 +35,7 @@ And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template
 　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 **Start up resources**
+
 You start up resources using sam command.
 You enter the following code.
 
