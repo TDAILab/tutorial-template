@@ -9,13 +9,14 @@ Set up
 **Create New GitHub App**
 
 You go to the "Settings" page of your account in GitHub website and click "developer settings" in the lower left corner to go to the "GitHub Apps" page.
-In this page,  you grant access to the repository for your newly created account In the repository permissions field.
-After you create "New GitHub App", you get a private key.
+In this page, you install the created Github App to the repository where the source code is located.
+After you create "New GitHub App", you can dawnload a private key.
 
-**mlp_sdk**
+**Clone Repository**
 
 You go to https://github.com/TDAILab/mlops-sdk and clone the "mlp_sdk" repository.
 Next, you rewrite parameters in "secret_manager.sh".
+You rewrite KEYPAIR_PATH as Github App private key and ACESS_TOKEN as API access token.
 
 .. figure:: /image/manager.png
    :alt: Logo 
@@ -25,14 +26,26 @@ Next, you rewrite parameters in "secret_manager.sh".
 
 After that, you register this with AWS Secret.
 
-**Sam sync**
-??
+And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template.yaml".
+
+.. figure:: /image/yaml.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+**Start up resources**
+You start up resources using sam command.
+You enter the following code.
+
+.. code-block:: python
+
+   sam sync --stack-name mlops-test  --watch --no-dependency-layer
 
 Accessing MLOpsLight site 
 ------------
 You go to https://mlops-tdai.bubbleapps.io/version-test/projects?debug_mode=true. 
 Click on the dark blue SIGN UP OR LOGIN button, and sign up using your e-mail address and password.
-
 
 
 Creating a new project
