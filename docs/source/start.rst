@@ -62,13 +62,6 @@ Then, click on the dark blue "New Project" button on this page, and enter the na
 After that, click on the dark blue Create a new project button, which will generate a new project on your personal account.
 
 
-Initialize Project
-------------
-Next step is initialize a project.
-Click the home page of the project page, and you enter github credential.
-After you fill out the form, you click the green "Initialize Project" button.
-A few minutes later, the blue "Pending" button and the red "Delete Resources in AWS" button will be displayed on the page.
-If you click the "Delete Resources in AWS" button, you can't run your project.
 
 Connecting AWS and Github
 ----------------
