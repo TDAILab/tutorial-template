@@ -62,14 +62,6 @@ Then, click on the dark blue "New Project" button on this page, and enter the na
 After that, click on the dark blue Create a new project button, which will generate a new project on your personal account.
 
 
-.. _target to image:
-
-.. figure:: /image/AWS_credential.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
-
 Initialize Project
 ------------
 The third step is initialize a project.
