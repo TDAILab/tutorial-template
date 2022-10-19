@@ -76,7 +76,6 @@ This step is connecting AWS and Github.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
 Next, you fill out this page and click on the dark blue "Initialize Project" button.
-If the connection is successful, you will see the following screen
 
 .. _target to image:
 
