@@ -93,7 +93,7 @@ We recommend Only selecting repositories, and then you need to select repositori
 .. _target to image:
 
 .. figure:: /image/repository_access.png
-   :alt: Log
+   :alt: Lo
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
