@@ -5,18 +5,41 @@ GET STARTED
 
 Set up
 ----------
+**Create the folk**
+You go to https://github.com/TDAILab/mlops-test and clck the "folk" button to create the folk.
+Folked repository will be created in your account.
 
 **Create New GitHub App**
 
 You go to the "Settings" page of your account in GitHub website and click "developer settings" in the lower left corner to go to the "GitHub Apps" page.
-In this page, you install the created Github App to the repository where the source code is located.
-After you create "New GitHub App", you can dawnload a private key.
+You follow three actions in this page.
+1.You fill in the "Github App name" and "Homepage URL" with whatever you think.
+2.You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
+3.You select "only on this account" to be able to this GitHub App installed only on your account.
+You click the green "Create Github App" button after three actions.
+
+**Install New GitHub App**
+
+You configure the settings so that only folked repository has access and install the GitHub App in your account in this section.
+After that, you generate a new private key and download it.
 
 **Clone Repository**
 
-You go to https://github.com/TDAILab/mlops-sdk and clone the "mlp_sdk" repository.
-Next, you rewrite parameters in "secret_manager.sh".
-You rewrite KEYPAIR_PATH as Github App private key and ACESS_TOKEN as API access token.
+You clone the mlops-sdk repository in your terminal.
+
+.. code-block:: python
+
+   git clone https://github.com/TDAILab/mlops-sdk.git
+
+You go to the "mlops-sdk" directory and copy the private key in this directory.
+You open this directory in VS code and rewrite "KEYPAIR_PATH" and "ACCESS_TOKEN" in "secret_manager.sh".
+You enter pass of private key for "KEYPAIR_PATH" and some string for "ACCESS_TOKEN".
+If you execute the "secret_manager.sh" file, you register this with AWS Secret.
+
+.. code-block:: python
+
+   bashsecret_manager.sh
+
 
 .. figure:: /image/manager.png
    :alt: Logo 
@@ -24,7 +47,11 @@ You rewrite KEYPAIR_PATH as Github App private key and ACESS_TOKEN as API access
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
 
-After that, you register this with AWS Secret.
+You execute the Sam command to create a resource in AWS.
+
+.. code-block:: python
+
+   sam build
 
 And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template.yaml".
 
