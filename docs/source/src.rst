@@ -160,7 +160,13 @@ Go the Model page, and fill out this page.
 
 ※A system run in a container using the data in S3.
 
+.. _target to image:
 
+.. figure:: /image/model_tabA.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 Data upload
