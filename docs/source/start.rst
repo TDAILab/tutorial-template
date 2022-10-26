@@ -165,27 +165,3 @@ The "Initialize" button will be labeled "Success" if the connection is successfu
 
 
 
-補足
----------------------------------------------------------------------------------------------------------------------------------------------------
-必要かわからないため残してある
-And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template.yaml".
-
-.. figure:: /image/yaml.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
-
-This will bring you to the Github webpage. You can select Repository access All repositories or Only select repositories.
-We recommend Only selecting repositories, and then you need to select repositories.
-
-
-.. _target to image:
-
-.. figure:: /image/repository_access.png
-   :alt: Lo
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
-
-
