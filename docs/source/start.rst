@@ -70,17 +70,6 @@ Parameter SecretName : KEYPAIR_NAME set in the "secret_manager.sh".
 Parameter AccessTokenName : TOKEN_NAME set in the "secret_manager.sh".
 Others : press enter
 
-
-いらなさそう？？？？？？？？？？？？？？
-And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template.yaml".
-
-.. figure:: /image/yaml.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
-？？？？？？？？？？？？？？？
-
 **Start up resources**
 
 You start up resources using sam command.
@@ -89,7 +78,6 @@ You enter the following code.
 .. code-block:: python
 
    sam sync --stack-name mlops-test  --watch --no-dependency-layer
-
 
 
 Accessing MLOpsLight site 
@@ -136,7 +124,20 @@ After that, you click the dark blue "Initialize" button.
 The "Initialize" button will be labeled "Success" if the connection is successful.
 
 
-??????????????????????????????????????????????????????????????????????????????
+
+
+
+補足
+---------------------------------------------------------------------------------------------------------------------------------------------------
+必要かわからないため残してある
+And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template.yaml".
+
+.. figure:: /image/yaml.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
 This will bring you to the Github webpage. You can select Repository access All repositories or Only select repositories.
 We recommend Only selecting repositories, and then you need to select repositories.
 

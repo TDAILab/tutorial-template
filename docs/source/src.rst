@@ -6,20 +6,6 @@ You use the the Support-Vector Machine(SVC) in this tutorial for classification 
 The "Iris date set" is used to train this model. 
 This model can predict to the type of Iris by several characteristics.
 
-Data upload
-------------
-First, you go to the AWS website https://aws.amazon.com/jp/.
-After that, search for "Amazon SageMaker" and go to this page.
-Next page, you find buckets by searching for your project name and go to your buckets page.
-Click the orange "Upload" button, and you select a file or a folder you want to use a database.
-
-.. _target to image:
-
-.. figure:: /image/data_Upload.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　Click to enlarge!
 
 Write programs
 ------------
@@ -145,19 +131,27 @@ After you fill out the form, you click the green "Initialize Project" button.
 A few minutes later, the blue "Pending" button and the red "Delete Resources in AWS" button will be displayed on the page.
 If you click the "Delete Resources in AWS" button, you can't run your project.
 
-Run
+Model
 ------------
 
 Go the Model page, and fill out this page.
 
-* Github Name : Your github name.
-* Github repository : The repository name with some scripts. 
-* Github path : The path to the upload some scripts.
-* S3 Source : The path to the upload folder.
-* Container Destination : Type in "data/input"
-* Container Source Path : Type in "data/output"
+**Import GitHub**
+* Name : Your github name.
+* Repository : The repository you folked
+* Path : The path in the script to train
+
+**Python Command**
+* Processing Command : Type in "python src/preprocessing.py"
+* Training Command : The path to the training script
+
+**Data sync input**
+* S3 Source : The path to the upload folder containing the training data.
+* Container Destination : The path of the folder to read the data written in the "train.py".
+
+**Data sync output**
+* Container Source Path : The path of the folder where the results will be saved written in the "train.py".
 * S3 Destination : The path to the folder stored the result of execute the model.
-* Training Command : The path to the training script. 
 
 
 ※A system run in a container using the data in S3.
@@ -171,7 +165,26 @@ Go the Model page, and fill out this page.
 　　　　　　　　　　　　　　　　Click to enlarge!
 
 
-After then, you click the dark blue "run" button.\n
+Data upload
+------------
+First, you click the "Go to my S3 bucket".
+You find buckets by searching for your project name and go to your buckets page.
+Click the orange "Upload" button, and you select a file or a folder you want to use a database.
+
+.. _target to image:
+
+.. figure:: /image/data_Upload.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　Click to enlarge!
+
+
+
+Run
+-------------
+
+After the uploading data, you click the dark blue "run" button.\n
 The form will pops up on the page, and you enter Image Tag Name and click Deploy to Dev(Dev).\n
 The program does from building an enviroment to model deployment.
 
@@ -190,9 +203,7 @@ The program does from building an enviroment to model deployment.
 　　　　　　　　　　　　　　　　Click to enlarge!
 
 
-
 You can check if the program is done on the history page. Click the "history" button and check out the "Status" section.
-
 
 
 * Status is Pending
@@ -202,7 +213,6 @@ You can check if the program is done on the history page. Click the "history" bu
 * Status is Failed
    The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. 
  
-
 
 .. _target to image:
 
