@@ -37,16 +37,17 @@ You open this directory in VS code and rewrite "KEYPAIR_PATH" and "ACCESS_TOKEN"
 You enter pass of private key for "KEYPAIR_PATH" and some string for "ACCESS_TOKEN".
 If you execute the "secret_manager.sh" file, you register this with AWS Secret.
 
-.. code-block:: python
-
-   bash secret_manager.sh
-
-
 .. figure:: /image/manager.png
    :alt: Logo 
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+.. code-block:: python
+
+   bash secret_manager.sh
+
+
 
 You execute the Sam command to create a resource in AWS.
 
