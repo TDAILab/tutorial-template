@@ -38,7 +38,7 @@ If you execute the "secret_manager.sh" file, you register this with AWS Secret.
 
 .. code-block:: python
 
-   bashsecret_manager.sh
+   bash secret_manager.sh
 
 
 .. figure:: /image/manager.png
@@ -53,6 +53,25 @@ You execute the Sam command to create a resource in AWS.
 
    sam build
 
+
+If the build is complete, you deploy with a guide.
+
+.. code-block:: python
+
+   sam beploy --guided
+
+
+When prompted for some information, take the following actions.
+Stack Name : some strings
+AWS Region : press enter
+Parameter InitStateMachineName : ??
+Parameter InitLambdaFunctionName : ??
+Parameter SecretName : KEYPAIR_NAME set in the "secret_manager.sh".
+Parameter AccessTokenName : TOKEN_NAME set in the "secret_manager.sh".
+Others : press enter
+
+
+いらなさそう？？？？？？？？？？？？？？
 And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template.yaml".
 
 .. figure:: /image/yaml.png
@@ -60,6 +79,7 @@ And then, you rewrite parameters "SecretName" and "AccessTokenName" in "template
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
+？？？？？？？？？？？？？？？
 
 **Start up resources**
 
@@ -69,6 +89,8 @@ You enter the following code.
 .. code-block:: python
 
    sam sync --stack-name mlops-test  --watch --no-dependency-layer
+
+
 
 Accessing MLOpsLight site 
 ------------
@@ -89,13 +111,18 @@ Then, click on the dark blue "New Project" button on this page, and enter the na
 After that, click on the dark blue Create a new project button, which will generate a new project on your personal account.
 
 
-
 Connecting AWS and Github
 ----------------
 This step is connecting AWS and Github.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
-Next, you fill out this page and click on the dark blue "Initialize Project" button.
+Next, you fill out this page. 
+You click on the dark blue "Initialize Project" button.
+Base API : The URL written in the "Value" field output by the deployment
+API token : Access_Token 
+Github App ID : Github App ID ust created.
+Secret Name in Secret Manager : KEYPAIR_NAME in "secret_manager.sh".
+GitHub Name : Your GitHub account name
 
 .. _target to image:
 
@@ -104,6 +131,8 @@ Next, you fill out this page and click on the dark blue "Initialize Project" but
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+After that, you click the dark blue "Initialize" button.
 
 
 This will bring you to the Github webpage. You can select Repository access All repositories or Only select repositories.
