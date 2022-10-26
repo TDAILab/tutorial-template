@@ -152,7 +152,7 @@ GitHub Name : Your GitHub account name
 
 .. _target to image:
 
-.. figure:: /image/connect_github.png
+.. figure:: /image/connect_githubA.png
    :alt: Log
    :align: center
    :width: 600px
