@@ -25,7 +25,20 @@ You go to the "Settings" page of your account in GitHub website and click "devel
 You follow three actions in this page.
 
 1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
+.. _target to image:
 
+.. figure:: /image/GithubApp_HomepageA.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+.. _target to image:
+
+.. figure:: /image/GithubApp_HomepageA.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 2. You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
