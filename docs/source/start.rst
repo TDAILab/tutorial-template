@@ -10,14 +10,47 @@ Set up
 You go to https://github.com/TDAILab/mlops-test and clck the "folk" button to create the folk.
 Folked repository will be created in your account.
 
+.. figure:: /image/create_folk.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
 **Create New GitHub App**
 
 You go to the "Settings" page of your account in GitHub website and click "developer settings" in the lower left corner to go to the "GitHub Apps" page.
 You follow three actions in this page.
-1.You fill in the "Github App name" and "Homepage URL" with whatever you think.
-2.You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
-3.You select "only on this account" to be able to this GitHub App installed only on your account.
+1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
+
+.. figure:: /image/GithubApp_Homepage.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+2. You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
+
+.. figure:: /image/Webhook.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+.. figure:: /image/contents.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+3. You select "only on this account" to be able to this GitHub App installed only on your account.
 You click the green "Create Github App" button after three actions.
+
+.. figure:: /image/only_on_this_account.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
 
 **Install New GitHub App**
 
