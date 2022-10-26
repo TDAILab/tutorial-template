@@ -10,6 +10,9 @@ Set up
 You go to https://github.com/TDAILab/mlops-test and clck the "folk" button to create the folk.
 Folked repository will be created in your account.
 
+
+.. _target to image:
+
 .. figure:: /image/create_folk.png
    :alt: Logo 
    :align: center
@@ -23,6 +26,8 @@ You follow three actions in this page.
 
 1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
 
+.. _target to image:
+
 .. figure:: /image/GithubApp_Homepage.png
    :alt: Logo 
    :align: center
@@ -31,11 +36,15 @@ You follow three actions in this page.
 
 2. You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
 
+.. _target to image:
+
 .. figure:: /image/Webhook.png
    :alt: Logo 
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
+
+.. _target to image:
 
 .. figure:: /image/contents.png
    :alt: Logo 
@@ -46,6 +55,8 @@ You follow three actions in this page.
 3. You select "only on this account" to be able to this GitHub App installed only on your account.
 You click the green "Create Github App" button after three actions.
 
+.. _target to image:
+
 .. figure:: /image/only_on_this_account.png
    :alt: Logo 
    :align: center
@@ -54,6 +65,8 @@ You click the green "Create Github App" button after three actions.
 
 You configure the settings so that only folked repository has access and install the GitHub App in your account in "Install App" page.
 After that, you generate a new private key and download it in "generate page".
+
+.. _target to image:
 
 .. figure:: /image/Install_GithubApp.png
    :alt: Logo 
@@ -73,6 +86,8 @@ You go to the "mlops-sdk" directory and copy the private key in this directory.
 You open this directory in VS code and rewrite "KEYPAIR_PATH" and "ACCESS_TOKEN" in "secret_manager.sh".
 You enter pass of private key for "KEYPAIR_PATH" and some string for "ACCESS_TOKEN".
 If you execute the "secret_manager.sh" file, you register this with AWS Secret.
+
+.. _target to image:
 
 .. figure:: /image/manager.png
    :alt: Logo 
@@ -152,13 +167,7 @@ Next, you fill out this page.
 * Secret Name in Secret Manager : KEYPAIR_NAME in "secret_manager.sh".
 * GitHub Name : Your GitHub account name
 
-.. _target to image:
 
-.. figure:: /image/connect_githubA.png
-   :alt: Log
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 After that, you click the dark blue "Initialize" button.
 The "Initialize" button will be labeled "Success" if the connection is successful.
