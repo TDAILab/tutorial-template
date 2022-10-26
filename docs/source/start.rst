@@ -26,13 +26,7 @@ You follow three actions in this page.
 
 1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
 
-.. _target to image:
 
-.. figure:: /image/GithubApp_Homepage.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 2. You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
 
@@ -167,7 +161,13 @@ Next, you fill out this page.
 * Secret Name in Secret Manager : KEYPAIR_NAME in "secret_manager.sh".
 * GitHub Name : Your GitHub account name
 
+.. _target to image:
 
+.. figure:: /image/connect_githubA.png
+   :alt: Log
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 After that, you click the dark blue "Initialize" button.
 The "Initialize" button will be labeled "Success" if the connection is successful.
