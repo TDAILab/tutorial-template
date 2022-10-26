@@ -100,6 +100,7 @@ If the build is complete, you deploy with a guide in your terminal..
 
 
 When prompted for some information, take the following actions.
+
 * Stack Name : some strings
 * AS Region : press enter
 * Parameter InitStateMachineName : ??
