@@ -20,6 +20,7 @@ Folked repository will be created in your account.
 
 You go to the "Settings" page of your account in GitHub website and click "developer settings" in the lower left corner to go to the "GitHub Apps" page.
 You follow three actions in this page.
+
 1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
 
 .. figure:: /image/GithubApp_Homepage.png
@@ -144,12 +145,12 @@ This step is connecting AWS and Github.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
 Next, you fill out this page. 
-You click on the dark blue "Initialize Project" button.
-Base API : The URL written in the "Value" field output by the deployment
-API token : Access_Token 
-Github App ID : Github App ID ust created.
-Secret Name in Secret Manager : KEYPAIR_NAME in "secret_manager.sh".
-GitHub Name : Your GitHub account name
+
+* Base API : The URL written in the "Value" field output by the deployment
+* API token : Access_Token 
+* Github App ID : Github App ID ust created.
+* Secret Name in Secret Manager : KEYPAIR_NAME in "secret_manager.sh".
+* GitHub Name : Your GitHub account name
 
 .. _target to image:
 
