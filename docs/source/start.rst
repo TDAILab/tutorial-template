@@ -85,14 +85,14 @@ If you execute the "secret_manager.sh" file, you register this with AWS Secret.
 
 
 
-You execute the Sam command to create a resource in AWS.
+You execute the Sam command in your terminal to create a resource in AWS.
 
 .. code-block:: python
 
    sam build
 
 
-If the build is complete, you deploy with a guide.
+If the build is complete, you deploy with a guide in your terminal..
 
 .. code-block:: python
 
