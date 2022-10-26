@@ -137,19 +137,23 @@ Model
 Go the Model page, and fill out this page.
 
 **Import GitHub**
+
 * Name : Your github name.
 * Repository : The repository you folked
 * Path : The path in the script to train
 
 **Python Command**
+
 * Processing Command : Type in "python src/preprocessing.py"
 * Training Command : The path to the training script
 
 **Data sync input**
+
 * S3 Source : The path to the upload folder containing the training data.
 * Container Destination : The path of the folder to read the data written in the "train.py".
 
 **Data sync output**
+
 * Container Source Path : The path of the folder where the results will be saved written in the "train.py".
 * S3 Destination : The path to the folder stored the result of execute the model.
 

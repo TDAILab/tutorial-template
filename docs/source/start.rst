@@ -64,13 +64,13 @@ If the build is complete, you deploy with a guide.
 
 
 When prompted for some information, take the following actions.
-Stack Name : some strings
-AWS Region : press enter
-Parameter InitStateMachineName : ??
-Parameter InitLambdaFunctionName : ??
-Parameter SecretName : KEYPAIR_NAME set in the "secret_manager.sh".
-Parameter AccessTokenName : TOKEN_NAME set in the "secret_manager.sh".
-Others : press enter
+* Stack Name : some strings
+* AS Region : press enter
+* Parameter InitStateMachineName : ??
+* Parameter InitLambdaFunctionName : ??
+* Parameter SecretName : KEYPAIR_NAME set in the "secret_manager.sh".
+* Parameter AccessTokenName : TOKEN_NAME set in the "secret_manager.sh".
+* Others : press enter
 
 **Start up resources**
 
