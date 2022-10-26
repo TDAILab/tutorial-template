@@ -6,6 +6,7 @@ GET STARTED
 Set up
 ----------
 **Create the folk**
+
 You go to https://github.com/TDAILab/mlops-test and clck the "folk" button to create the folk.
 Folked repository will be created in your account.
 
