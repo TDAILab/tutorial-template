@@ -51,11 +51,14 @@ You click the green "Create Github App" button after three actions.
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
 
+You configure the settings so that only folked repository has access and install the GitHub App in your account in "Install App" page.
+After that, you generate a new private key and download it in "generate page".
 
-**Install New GitHub App**
-
-You configure the settings so that only folked repository has access and install the GitHub App in your account in this section.
-After that, you generate a new private key and download it.
+.. figure:: /image/Install_GithubApp.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 **Clone Repository**
 
