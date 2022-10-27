@@ -33,16 +33,12 @@ You follow three actions in this page.
    :width: 600px
 　　　　　　　　　　　　　　　　　　Click to enlarge!
 
-.. _target to image:
 
-.. figure:: /image/GithubApp_HomepageA.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 
 2. You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
+
+.. _target to image:
 
 .. figure:: /image/Webhook.png
    :alt: Logo 
@@ -73,11 +69,6 @@ You configure the settings so that only folked repository has access and install
 After that, you generate a new private key and download it in "generate page".
 
 
-.. figure:: /image/Install_GithubApp.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 **Clone Repository**
 
