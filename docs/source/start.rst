@@ -44,8 +44,6 @@ You follow three actions in this page.
 
 2. You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
 
-.. _target to image:
-
 .. figure:: /image/Webhook.png
    :alt: Logo 
    :align: center
@@ -74,7 +72,6 @@ You click the green "Create Github App" button after three actions.
 You configure the settings so that only folked repository has access and install the GitHub App in your account in "Install App" page.
 After that, you generate a new private key and download it in "generate page".
 
-.. _target to image:
 
 .. figure:: /image/Install_GithubApp.png
    :alt: Logo 
