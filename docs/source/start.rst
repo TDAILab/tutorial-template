@@ -179,7 +179,7 @@ Next, you fill out this page.
 
 .. _target to image:
 
-.. figure:: /image/connect_githubA.png
+.. figure:: /image/github_conect.png
    :alt: Log
    :align: center
    :width: 600px
