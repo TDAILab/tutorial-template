@@ -27,11 +27,7 @@ You follow three actions in this page.
 1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
 .. _target to image:
 
-.. figure:: /image/GithubApp_HomepageA.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
+
 .. _target to image:
 
 .. figure:: /image/GithubApp_HomepageA.png
