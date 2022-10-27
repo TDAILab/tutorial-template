@@ -27,6 +27,11 @@ You follow three actions in this page.
 1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
 .. _target to image:
 
+.. figure:: /image/GithubApp_HomepageB.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 .. _target to image:
 
@@ -158,17 +163,19 @@ After that, click on the dark blue Create a new project button, which will gener
 
 
 Connecting AWS and Github
-----------------
+-------------------------
 This step is connecting AWS and Github.
 Select a project you want to initialize and click its button, you will move a selected project page.
 After that, click the "Home" button on the left-hand side of the screen. 
 Next, you fill out this page. 
+
 
 * Base API : The URL written in the "Value" field output by the deployment
 * API token : Access_Token 
 * Github App ID : Github App ID ust created.
 * Secret Name in Secret Manager : KEYPAIR_NAME in "secret_manager.sh".
 * GitHub Name : Your GitHub account name
+
 
 .. _target to image:
 
