@@ -69,6 +69,11 @@ You configure the settings so that only folked repository has access and install
 After that, you generate a new private key and download it in "generate page".
 
 
+.. figure:: \image\Install_GIthubAppA.png
+   :alt: Logo 
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 **Clone Repository**
 
