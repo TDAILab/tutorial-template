@@ -25,6 +25,7 @@ You go to the "Settings" page of your account in GitHub website and click "devel
 You follow three actions in this page.
 
 1. You fill in the "Github App name" and "Homepage URL" with whatever you think.
+
 .. _target to image:
 
 .. figure:: /image/GithubApp_HomepageB.png
@@ -86,13 +87,19 @@ You open this directory in VS code and rewrite "KEYPAIR_PATH" and "ACCESS_TOKEN"
 You enter pass of private key for "KEYPAIR_PATH" and some string for "ACCESS_TOKEN".
 If you execute the "secret_manager.sh" file, you register this with AWS Secret.
 
-.. _target to image:
 
-.. figure:: /image/manager.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　　　Click to enlarge!
+.. code-block:: python
+
+   KEYPAIR_NAME=demo_keypair
+   KEYPAIR_PATH=xxxxxxx.private-key.pem
+
+   aws secretsmanager create-secret --name ${KEYPAIR_NAME} --secret-string file://${KEYPAIR_PATH}
+
+   TOKEN_NAME=mlops_access_token
+   ACESS_TOKEN=xxxxxxxxx
+
+   aws secretsmanager create-secret --name ${TOKEN_NAME} --secret-string ${ACESS_TOKEN}
+
 
 .. code-block:: python
 
