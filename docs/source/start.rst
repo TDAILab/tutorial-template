@@ -152,7 +152,7 @@ Then, click on the dark blue "New Project" button on this page, and enter the na
 After that, click on the dark blue Create a new project button, which will generate a new project on your personal account.
 
 
-Connecting AWS and Github
+Prepare to use the model
 -------------------------
 This step is connecting AWS and Github.
 Select a project you want to initialize and click its button, you will move a selected project page.
