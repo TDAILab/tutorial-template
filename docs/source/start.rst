@@ -34,8 +34,6 @@ You follow three actions in this page.
 　　　　　　　　　　　　　　　　　　Click to enlarge!
 
 
-
-
 2. You remove the check mark "Webhook" and grant Contents in the permisson filed the authority of "read only".
 
 .. _target to image:
@@ -69,7 +67,7 @@ You configure the settings so that only folked repository has access and install
 After that, you generate a new private key and download it in "generate page".
 
 
-.. figure:: \image\Install_GIthubAppA.png
+.. figure:: \image\Install_GithubAppA.png
    :alt: Logo 
    :align: center
    :width: 600px
@@ -120,20 +118,12 @@ When prompted for some information, take the following actions.
 
 * Stack Name : some strings
 * AS Region : press enter
-* Parameter InitStateMachineName : ??
-* Parameter InitLambdaFunctionName : ??
+* Parameter InitStateMachineName : press enter
+* Parameter InitLambdaFunctionName : press enter
 * Parameter SecretName : KEYPAIR_NAME set in the "secret_manager.sh".
 * Parameter AccessTokenName : TOKEN_NAME set in the "secret_manager.sh".
 * Others : press enter
 
-**Start up resources**
-
-You start up resources using sam command.
-You enter the following code.
-
-.. code-block:: python
-
-   sam sync --stack-name mlops-test  --watch --no-dependency-layer
 
 
 Accessing MLOpsLight site 
