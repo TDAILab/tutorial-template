@@ -84,8 +84,7 @@ You clone the mlops-sdk repository in your terminal.
 
 You go to the "mlops-sdk" directory and copy the private key in this directory.
 You open this directory in VS code and rewrite "KEYPAIR_PATH" and "ACCESS_TOKEN" in "secret_manager.sh".
-You enter pass of private key for "KEYPAIR_PATH" and some string for "ACCESS_TOKEN".
-If you execute the "secret_manager.sh" file, you register this with AWS Secret.
+You enter the pass of private key for "KEYPAIR_PATH" and some string for "ACCESS_TOKEN".
 
 
 .. code-block:: python
@@ -100,6 +99,7 @@ If you execute the "secret_manager.sh" file, you register this with AWS Secret.
 
    aws secretsmanager create-secret --name ${TOKEN_NAME} --secret-string ${ACESS_TOKEN}
 
+If you execute the "secret_manager.sh" file, you register this with AWS Secret.
 
 .. code-block:: python
 
