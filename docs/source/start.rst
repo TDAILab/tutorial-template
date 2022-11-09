@@ -169,7 +169,7 @@ Next, you fill out this page.
 
 .. _target to image:
 
-.. figure:: /image/github_connect.png
+.. figure:: C:\Users\kaho\Documents\GitHub\tutorial-template\docs\source\image\github_connect.png
    :alt: Log
    :align: center
    :width: 600px
