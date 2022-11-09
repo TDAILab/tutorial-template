@@ -58,7 +58,7 @@ You click the green "Create Github App" button after three actions.
 
 .. _target to image:
 
-.. figure:: /image/only_on_this_account.png
+.. figure:: /image/only_on_this_account1.png
    :alt: Logo 
    :align: center
    :width: 600px
