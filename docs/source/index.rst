@@ -24,5 +24,3 @@ Contents
    start
    tutorial
    api
-   workflow
-
