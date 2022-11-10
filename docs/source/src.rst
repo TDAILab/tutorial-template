@@ -218,28 +218,17 @@ You can check if the program is done on the history page. Click the "history" bu
    The program is failed because of some reasons. You can investigate a cause to see the "pipeline" page in the AWS site. 
  
 
+
 .. _target to image:
 
-.. figure:: /image/confirm_history.png
+.. figure:: /image/result.png
    :alt: Logo 
    :align: center
    :width: 600px
 　　　　　　　　　　　　　　　　　Click to enlarge!
 
-
 Endpoint
 ------------
-Endpoints is the URL required to connect to AWS services
-You can check the Endpoint on the AWS website. Go to https://aws.amazon.com/jp/.
-Search for "Amazon SageMaker", and go to this page.
-Click the "Inference" button on the left-hand side of the Amazon SageMaker page, and click the "Endpoints" button.
-You will see the Endpoint on this page.
-
-.. _target to image:
-
-.. figure:: /image/Endpoint_result.png
-   :alt: Logo 
-   :align: center
-   :width: 600px
-　　　　　　　　　　　　　　　　Click to enlarge!
+Endpoints is the URL required to connect to AWS services.
+You can check the Endpoint if you click on the Endpoint column of the history page.
 

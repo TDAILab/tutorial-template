@@ -118,13 +118,13 @@ If the build is complete, you deploy with a guide in your terminal..
 
 .. code-block:: python
 
-   sam beploy --guided
+   sam deploy --guided
 
 
 When prompted for some information, take the following actions.
 
 * Stack Name : some strings
-* AS Region : press enter
+* AWS Region : press enter
 * Parameter InitStateMachineName : press enter
 * Parameter InitLambdaFunctionName : press enter
 * Parameter SecretName : KEYPAIR_NAME set in the "secret_manager.sh".
