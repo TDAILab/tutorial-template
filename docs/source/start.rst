@@ -167,6 +167,14 @@ Next, you fill out this page.
 * GitHub Name : Your GitHub account name
 
 
+.. _target to image:
+
+.. figure:: \image\github_connect1.png
+   :alt: Log
+   :align: center
+   :width: 600px
+　　　　　　　　　　　　　　　　　　Click to enlarge!
+
 After that, you click the dark blue "Initialize" button.
 The "Initialize" button will be labeled "Success" if the connection is successful.
 
