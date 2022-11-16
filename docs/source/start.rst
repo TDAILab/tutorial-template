@@ -68,6 +68,8 @@ You configure the settings so that only folked repository has access and install
 After that, you generate a new private key and download it in "generate page".
 
 
+.. _target to image:
+
 .. figure:: \image\Install_GithubAppB.png
    :alt: Logo 
    :align: center
@@ -161,8 +163,8 @@ Next, you fill out this page.
 
 
 * Base API : The URL written in the "Value" field output by the deployment
-* API token : Access_Token 
-* Github App ID : Github App ID ust created.
+* API token : Access_Token in "secret_manager.sh".
+* Github App ID : Github App ID. You confirm it in GitHub APPs page you created just now.  
 * Secret Name in Secret Manager : KEYPAIR_NAME in "secret_manager.sh".
 * GitHub Name : Your GitHub account name
 
